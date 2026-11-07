@@ -48,7 +48,7 @@ The course transcripts and slides stay on my machine: they belong to the course 
 | 3 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 4 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 
-**Next up:** 21 (título a confirmar)
+**Next up:** 21. Tokens, the Context Window and Cost
 
 **Weak spots under review** (logged in Spanish, as studied):
 

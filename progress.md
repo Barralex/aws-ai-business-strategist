@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 21 (título a confirmar)
+Próxima lección: 21. Tokens, the Context Window and Cost
 
 ## Temario
 
@@ -27,10 +27,16 @@ Próxima lección: 21 (título a confirmar)
 - [x] 14. AI Agents (3/3)
 - [x] 15. Drift and Monitoring (2/3)
 - [x] 16. Shadow AI (3/3)
-- [x] 17. Generative Language Models (3/3)
+- [x] 17. Generative Language and Image Models (3/3)
 - [x] 18. Prompt Engineering (3/3)
-- [x] 19. RAG and Fine-Tuning (3/3)
+- [x] 19. RAG, Fine-Tuning and the Adaptation Ladder (3/3)
 - [x] 20. Guardrails (2/2)
+- [ ] 21. Tokens, the Context Window and Cost
+- [ ] 22. Diagnosing a GenAI Complaint
+- [ ] 23. AWS Services for Domain 1
+- [ ] 24. Domain 1 Wrap-up: The Method, and CozyCo
+- Cuestionario 1: AWS Services Quiz: Domain 1
+- Cuestionario 2: AI Fundamentals and Literacy Quiz
 - El resto se suma a medida que avanzamos.
 
 ## Puntos flojos

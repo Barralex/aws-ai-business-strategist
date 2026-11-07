@@ -43,7 +43,7 @@ window.DATA = {
     }
   ],
   "current": 1,
-  "next": "21 (título a confirmar)",
+  "next": "21. Tokens, the Context Window and Cost",
   "recent": [
     {
       "number": 20,
@@ -54,7 +54,7 @@ window.DATA = {
     },
     {
       "number": 19,
-      "title": "RAG and Fine-Tuning",
+      "title": "RAG, Fine-Tuning and the Adaptation Ladder",
       "state": "done",
       "right": 3,
       "asked": 3
@@ -68,7 +68,7 @@ window.DATA = {
     },
     {
       "number": 17,
-      "title": "Generative Language Models",
+      "title": "Generative Language and Image Models",
       "state": "done",
       "right": 3,
       "asked": 3
