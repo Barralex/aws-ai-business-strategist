@@ -3,19 +3,19 @@ window.DATA = {
   "updated": "2026-11-06",
   "started": "2026-11-06",
   "days": 1,
-  "lessonsDone": 5,
+  "lessonsDone": 9,
   "skipped": 2,
-  "right": 10,
-  "asked": 11,
+  "right": 21,
+  "asked": 23,
   "accuracy": 91,
   "domains": [
     {
       "number": 1,
       "title": "AI Fundamentals and Literacy",
-      "done": 4,
+      "done": 8,
       "total": 23,
-      "right": 10,
-      "asked": 11
+      "right": 21,
+      "asked": 23
     },
     {
       "number": 2,
@@ -43,39 +43,47 @@ window.DATA = {
     }
   ],
   "current": 1,
-  "next": "9. History Sets the Ceiling",
+  "next": "13 (título a confirmar)",
   "recent": [
+    {
+      "number": 12,
+      "title": "AI Standards: ISO/IEC 23053 and 42001",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 11,
+      "title": "Data Quality",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 10,
+      "title": "Structured and Unstructured Data",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
+    {
+      "number": 9,
+      "title": "History Sets the Ceiling",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 8,
       "title": "How a Model Comes to Exist: Training, Inference and Their Costs",
       "state": "done",
       "right": 3,
       "asked": 3
-    },
-    {
-      "number": 7,
-      "title": "AI, Machine Learning and Generative AI",
-      "state": "done",
-      "right": 2,
-      "asked": 3
-    },
-    {
-      "number": 6,
-      "title": "The AI Business Strategist and a Shared Vocabulary",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 5,
-      "title": "Domain 1 Overview",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
   "weak": [
-    "Jerarquía AI ⊃ ML ⊃ GenAI: la invirtió (dijo que GenAI incluye a ML). GenAI es el círculo de adentro y hereda training data, inference y drift. (lección 7)"
+    "Jerarquía AI ⊃ ML ⊃ GenAI: la invirtió (dijo que GenAI incluye a ML). GenAI es el círculo de adentro y hereda training data, inference y drift. (lección 7)",
+    "Tipo de dato antes que volumen: para un asistente sobre documentos eligió la facturación (más registros) y después \"pasar los PDF a Excel\". Un asistente que lee necesita unstructured; el volumen nunca compensa el tipo equivocado. (lección 10)"
   ],
   "mocks": []
 };
