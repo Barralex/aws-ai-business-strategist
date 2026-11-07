@@ -5,8 +5,8 @@
 
 <!-- badges:start -->
 [![Exam](https://img.shields.io/badge/exam-AIB--C01-1B2440?style=flat-square)](#the-brief)
-[![Domain](https://img.shields.io/badge/domain%201-8%2F23%20lessons-E0A13A?style=flat-square)](#progress)
-[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-91%25%20%2821%2F23%29-2E9E83?style=flat-square)](#progress)
+[![Domain](https://img.shields.io/badge/domain%201-12%2F23%20lessons-E0A13A?style=flat-square)](#progress)
+[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-91%25%20%2832%2F35%29-2E9E83?style=flat-square)](#progress)
 [![Mocks](https://img.shields.io/badge/mock%20exams-0%2F4-5F6073?style=flat-square)](#progress)
 [![License](https://img.shields.io/badge/license-proprietary-4A4E6D?style=flat-square)](LICENSE)
 <!-- badges:end -->
@@ -43,19 +43,18 @@ The course transcripts and slides stay on my machine: they belong to the course 
 <!-- progress:start -->
 | | Domain | Lessons | Exam-style | |
 |---|---|---|---|---|
-| 1 | AI Fundamentals and Literacy | 8/23 | 21/23 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
+| 1 | AI Fundamentals and Literacy | 12/23 | 32/35 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
 | 2 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 3 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 4 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 
-**Next up:** 13 (título a confirmar)
+**Next up:** 17 (título a confirmar)
 
 **Weak spots under review** (logged in Spanish, as studied):
 
-- Jerarquía AI ⊃ ML ⊃ GenAI: la invirtió (dijo que GenAI incluye a ML). GenAI es el círculo de adentro y hereda training data, inference y drift. (lección 7)
-- Tipo de dato antes que volumen: para un asistente sobre documentos eligió la facturación (más registros) y después "pasar los PDF a Excel". Un asistente que lee necesita unstructured; el volumen nunca compensa el tipo equivocado. (lección 10)
+- Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)
 
-<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-06.</sub>
+<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-07.</sub>
 <!-- progress:end -->
 
 ## License

@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 13 (título a confirmar)
+Próxima lección: 17 (título a confirmar)
 
 ## Temario
 
@@ -22,13 +22,16 @@ Próxima lección: 13 (título a confirmar)
 - [x] 9. History Sets the Ceiling (3/3)
 - [x] 10. Structured and Unstructured Data (2/3)
 - [x] 11. Data Quality (3/3)
-- [x] 12. AI Standards: ISO/IEC 23053 and 42001 (3/3)
+- [x] 12. AI Standards: ISO/IEC 23053 and ISO/IEC 42001 (3/3)
+- [x] 13. Rules or AI? (3/3)
+- [x] 14. AI Agents (3/3)
+- [x] 15. Drift and Monitoring (2/3)
+- [x] 16. Shadow AI (3/3)
 - El resto se suma a medida que avanzamos.
 
 ## Puntos flojos
 
-- Jerarquía AI ⊃ ML ⊃ GenAI: la invirtió (dijo que GenAI incluye a ML). GenAI es el círculo de adentro y hereda training data, inference y drift. (lección 7)
-- Tipo de dato antes que volumen: para un asistente sobre documentos eligió la facturación (más registros) y después "pasar los PDF a Excel". Un asistente que lee necesita unstructured; el volumen nunca compensa el tipo equivocado. (lección 10)
+- Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)
 
 ## Simulacros
 
@@ -44,3 +47,7 @@ Ninguno todavía.
 - 2026-11-06: lección 10, 2/3 (falló la elección de fuente para el asistente de documentos: fue por volumen).
 - 2026-11-06: lección 11, 3/3 (3 C + R: completeness, consistency, currency, representativeness; arreglar en origen y reentrenar).
 - 2026-11-06: lección 12, 3/3 (23053 = vocabulario, 42001 = AIMS y governance certificable; 27001 y SOC 2 son seguridad).
+- 2026-11-07: repaso 2/2 (jerarquía y tipo de dato, ambos resueltos). Lección 13, 3/3 (rules or AI: ¿se conoce el patrón de antemano y sigue siendo cierto?; volumen, varios sistemas y explicación en lenguaje natural no piden AI).
+- 2026-11-07: lección 14, 3/3 (agent = actúa solo, multi-step, sin persona en cada paso; lenguaje natural, RAG y foundation model no lo hacen agent).
+- 2026-11-07: lección 15, 2/3 (falló bias drift vs data drift, la sacó con pista; drift no tira errores, AI es operating commitment).
+- 2026-11-07: lección 16, 3/3 (transparent tool classification en 3 estados + request route; bloquear, capacitar o aprobar por gerente fallan; riesgo de datos e IP).
