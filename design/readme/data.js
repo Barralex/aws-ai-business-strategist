@@ -3,25 +3,25 @@ window.DATA = {
   "updated": "2026-11-07",
   "started": "2026-11-06",
   "days": 2,
-  "lessonsDone": 17,
+  "lessonsDone": 21,
   "skipped": 2,
-  "right": 43,
-  "asked": 46,
-  "accuracy": 93,
+  "right": 51,
+  "asked": 54,
+  "accuracy": 94,
   "domains": [
     {
       "number": 1,
       "title": "AI Fundamentals and Literacy",
-      "done": 16,
+      "done": 20,
       "total": 23,
-      "right": 43,
-      "asked": 46
+      "right": 51,
+      "asked": 54
     },
     {
       "number": 2,
-      "title": null,
+      "title": "AI Strategy and Business Value Creation",
       "done": 0,
-      "total": null,
+      "total": 18,
       "right": 0,
       "asked": 0
     },
@@ -43,8 +43,29 @@ window.DATA = {
     }
   ],
   "current": 1,
-  "next": "21. Tokens, the Context Window and Cost",
+  "next": "25. Domain 2 Overview (título a confirmar)",
   "recent": [
+    {
+      "number": 23,
+      "title": "AWS Services for Domain 1",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 22,
+      "title": "Diagnosing a GenAI Complaint",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
+    {
+      "number": 21,
+      "title": "Tokens, the Context Window and Cost",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 20,
       "title": "Guardrails",
@@ -55,27 +76,6 @@ window.DATA = {
     {
       "number": 19,
       "title": "RAG, Fine-Tuning and the Adaptation Ladder",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 18,
-      "title": "Prompt Engineering",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 17,
-      "title": "Generative Language and Image Models",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 16,
-      "title": "Shadow AI",
       "state": "done",
       "right": 3,
       "asked": 3

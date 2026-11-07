@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 21. Tokens, the Context Window and Cost
+Próxima lección: 25. Domain 2 Overview (título a confirmar)
 
 ## Temario
 
@@ -31,13 +31,16 @@ Próxima lección: 21. Tokens, the Context Window and Cost
 - [x] 18. Prompt Engineering (3/3)
 - [x] 19. RAG, Fine-Tuning and the Adaptation Ladder (3/3)
 - [x] 20. Guardrails (2/2)
-- [ ] 21. Tokens, the Context Window and Cost
-- [ ] 22. Diagnosing a GenAI Complaint
-- [ ] 23. AWS Services for Domain 1
-- [ ] 24. Domain 1 Wrap-up: The Method, and CozyCo
-- Cuestionario 1: AWS Services Quiz: Domain 1
-- Cuestionario 2: AI Fundamentals and Literacy Quiz
-- El resto se suma a medida que avanzamos.
+- [x] 21. Tokens, the Context Window and Cost (3/3)
+- [x] 22. Diagnosing a GenAI Complaint (2/2)
+- [x] 23. AWS Services for Domain 1 (3/3)
+- [x] 24. Domain 1 Wrap-up: The Method, and CozyCo (sin preguntas)
+- Cuestionario 1: AWS Services Quiz: Domain 1 (Udemy, 4/4)
+- Cuestionario 2: AI Fundamentals and Literacy Quiz (Udemy, 18/18)
+- Role play 1: The First AI Meeting at CozyCo (hecho en Udemy)
+
+### Sección 4: Domain 2: AI Strategy and Business Value Creation (18 lecciones, 1 role play)
+- Se suma a medida que avanzamos.
 
 ## Puntos flojos
 
@@ -45,7 +48,7 @@ Próxima lección: 21. Tokens, the Context Window and Cost
 
 ## Simulacros
 
-Ninguno todavía.
+Ninguno todavía. Pendiente: el del dominio 1 (se pasó directo al dominio 2).
 
 ## Registro
 
@@ -65,3 +68,9 @@ Ninguno todavía.
 - 2026-11-07: lección 18, 3/3 (prompt engineering = task, context, examples, material; 4 principios; no cambia el modelo y es lo más barato).
 - 2026-11-07: lección 19, 3/3 (knowledge nuevo = RAG/grounding, behavior nuevo = fine-tuning; palancas por costo: prompt → RAG → fine-tuning; foundation model ⊃ LLM).
 - 2026-11-07: lección 20, 2/2 (guardrail filtra entrada y salida: temas, contenido dañino, datos sensibles, prompt injection; no agrega datos ni arregla formato; uno sirve para cualquier modelo).
+- 2026-11-07: lección 21, 3/3 (token, context window compartida input/output, capacity problem crece con el largo → compaction; se paga por token; plan más barato del mismo modelo no baja la calidad, otro modelo sí puede).
+- 2026-11-07: lección 22, 2/2 (4 reclamos → 4 palancas: formato → prompt, inputs largos → context window, datos viejos → RAG, behavior → fine-tuning; "más datos" nunca alcanza solo).
+- 2026-11-07: lección 23, 3/3 (Bedrock = GenAI con KB/Guardrails/fine-tuning/Agents; Quick = asistente interno rápido sobre datos propios; SageMaker AI = ML a medida + Model Monitor; Marketplace = compra de terceros; CAF governance = dueño de la política).
+- 2026-11-07: cuestionarios de Udemy del dominio 1: AWS Services 4/4, AI Fundamentals and Literacy 18/18.
+- 2026-11-07: lección 24 vista (método de 6 pasos y CozyCo), sin preguntas: pasamos directo al role play.
+- 2026-11-07: role play 1 hecho en Udemy (The First AI Meeting at CozyCo). Simulacro del dominio 1 queda pendiente. Arranca el dominio 2.
