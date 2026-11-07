@@ -1,0 +1,5 @@
+# Course material: transcripts and slides belong to the course, they stay local
+lessons/
+material/
+
+node_modules/

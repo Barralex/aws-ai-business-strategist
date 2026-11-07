@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Banner</title>
+<style>
+  :root {
+    --ink: #0d1322; --ink-2: #141c30; --line: #24304b;
+    --text: #eef1f7; --muted: #8d98b0; --amber: #f2a541; --teal: #3fc1a6; --coral: #e8665a;
+    --sans: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+    --mono: "Cascadia Code", "Cascadia Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1800px; height: 450px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(900px 500px at 82% 50%, #1c2744 0%, transparent 70%),
+      linear-gradient(180deg, var(--ink-2), var(--ink));
+    color: var(--text); font-family: var(--sans); position: relative;
+  }
+  .grid {
+    position: absolute; inset: 0; opacity: .35;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 45px 45px;
+    mask-image: linear-gradient(90deg, transparent 0%, #000 55%, #000 100%);
+  }
+  .copy { position: absolute; left: 110px; top: 56px; width: 1000px; }
+  .kicker {
+    font-family: var(--mono); font-size: 22px; letter-spacing: .18em; color: var(--amber);
+    display: flex; align-items: center; gap: 16px;
+  }
+  .kicker i { width: 44px; height: 2px; background: var(--amber); display: inline-block; }
+  h1 { font-size: 88px; line-height: 1.02; font-weight: 700; letter-spacing: -.025em; margin-top: 22px; }
+  h1 span { color: var(--amber); }
+  .sub { font-size: 26px; color: var(--muted); margin-top: 16px; }
+  .strip {
+    position: absolute; left: 110px; bottom: 44px; display: flex; gap: 14px; align-items: center;
+    font-family: var(--mono); font-size: 19px; color: var(--muted);
+  }
+  .seg { display: flex; flex-direction: column; gap: 8px; width: 170px; }
+  .bar { height: 8px; border-radius: 4px; background: #222c45; overflow: hidden; }
+  .bar b { display: block; height: 100%; background: var(--amber); border-radius: 4px; }
+  .seg.on .lab { color: var(--text); }
+
+  /* AI ⊃ ML ⊃ GenAI */
+  .rings { position: absolute; right: 120px; top: 50%; transform: translateY(-50%); width: 400px; height: 400px; }
+  .ring {
+    position: absolute; border-radius: 50%; border: 2px solid; display: flex; justify-content: center;
+    font-family: var(--mono); font-size: 20px; letter-spacing: .08em; padding-top: 22px;
+  }
+  .r1 { inset: 0; border-color: #3a4a70; color: #7f8db0; background: rgba(58,74,112,.10); }
+  .r2 { inset: 70px; border-color: var(--teal); color: var(--teal); background: rgba(63,193,166,.07); }
+  .r3 {
+    inset: 140px; border-color: var(--amber); color: #1a1205; background: var(--amber);
+    align-items: center; padding-top: 0; font-weight: 700; font-size: 22px;
+    box-shadow: 0 0 60px rgba(242,165,65,.35);
+  }
+</style>
+</head>
+<body>
+<div class="grid"></div>
+
+<div class="copy">
+  <div class="kicker"><i></i>AWS CERTIFIED · AIB-C01</div>
+  <h1>AI Business<br><span>Strategist</span></h1>
+  <p class="sub">A study log, one lesson at a time.</p>
+</div>
+
+<div class="strip" id="strip"></div>
+
+<div class="rings">
+  <div class="ring r1">AI</div>
+  <div class="ring r2">ML</div>
+  <div class="ring r3">GenAI</div>
+</div>
+
+<script src="data.js"></script>
+<script>
+  const d = window.DATA;
+  document.getElementById('strip').innerHTML = d.domains.map((dom) => {
+    const pct = dom.total ? Math.round((dom.done / dom.total) * 100) : 0;
+    return `<div class="seg ${dom.number === d.current ? 'on' : ''}">
+      <span class="lab">DOMAIN ${dom.number}</span>
+      <div class="bar"><b style="width:${pct}%"></b></div>
+    </div>`;
+  }).join('');
+</script>
+</body>
+</html>

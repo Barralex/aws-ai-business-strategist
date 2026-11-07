@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Progress</title>
+<style>
+  :root {
+    --ink: #0d1322; --card: #151d31; --card-2: #1a2440; --line: #26314d;
+    --text: #eef1f7; --muted: #8d98b0; --dim: #5d6782;
+    --amber: #f2a541; --teal: #3fc1a6; --coral: #e8665a;
+    --sans: "Segoe UI Variable Display", "Segoe UI", system-ui, sans-serif;
+    --mono: "Cascadia Code", "Cascadia Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1800px; height: 830px; overflow: hidden; }
+  body {
+    background: radial-gradient(1200px 600px at 10% 0%, #18213a 0%, transparent 60%), var(--ink);
+    color: var(--text); font-family: var(--sans); padding: 70px 90px;
+  }
+  .top { display: flex; justify-content: space-between; align-items: flex-end; }
+  .kicker { font-family: var(--mono); font-size: 19px; letter-spacing: .18em; color: var(--amber); }
+  h2 { font-size: 46px; font-weight: 700; letter-spacing: -.02em; margin-top: 10px; }
+  .meta { font-family: var(--mono); font-size: 18px; color: var(--muted); text-align: right; line-height: 1.6; }
+
+  .kpis { display: grid; grid-template-columns: 1.25fr 1fr 1fr 1fr; gap: 24px; margin-top: 44px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 28px 32px; height: 200px; position: relative; }
+  .kpi .lab { font-family: var(--mono); font-size: 16px; letter-spacing: .12em; color: var(--muted); text-transform: uppercase; }
+  .kpi .val { font-size: 72px; font-weight: 700; letter-spacing: -.03em; margin-top: 10px; line-height: 1; }
+  .kpi .val small { font-size: 32px; color: var(--muted); font-weight: 600; margin-left: 6px; }
+  .kpi .note { font-size: 19px; color: var(--muted); margin-top: 16px; }
+  .kpi.hero { background: linear-gradient(135deg, #2a2312, #1a1a20 70%); border-color: #4a3a1c; }
+  .kpi.hero .val { color: var(--amber); }
+  .gauge { position: absolute; right: 30px; top: 32px; width: 136px; height: 136px; }
+
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 30px 34px; height: 330px; }
+  .panel h3 { font-family: var(--mono); font-size: 16px; letter-spacing: .12em; color: var(--muted); font-weight: 400; text-transform: uppercase; margin-bottom: 22px; }
+
+  .dom { display: grid; grid-template-columns: 150px 1fr 110px; align-items: center; gap: 20px; height: 58px; }
+  .dom .n { font-family: var(--mono); font-size: 19px; color: var(--dim); }
+  .dom.on .n { color: var(--text); }
+  .dom .bar { height: 14px; background: #222c45; border-radius: 7px; overflow: hidden; }
+  .dom .bar b { display: block; height: 100%; border-radius: 7px; background: var(--amber); }
+  .dom .c { font-family: var(--mono); font-size: 19px; color: var(--muted); text-align: right; }
+  .dom.on .c { color: var(--text); }
+
+  .les { display: grid; grid-template-columns: 56px 1fr auto; align-items: center; gap: 16px; height: 51px; border-bottom: 1px solid var(--line); }
+  .les:last-child { border-bottom: 0; }
+  .les .num { font-family: var(--mono); font-size: 18px; color: var(--dim); }
+  .les .t { font-size: 21px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dots { display: flex; gap: 7px; }
+  .dots i { width: 15px; height: 15px; border-radius: 50%; background: var(--teal); }
+  .dots i.miss { background: transparent; border: 2px solid var(--coral); }
+</style>
+</head>
+<body>
+<div class="top">
+  <div>
+    <div class="kicker">AIB-C01 · STUDY PROGRESS</div>
+    <h2 id="title"></h2>
+  </div>
+  <div class="meta" id="meta"></div>
+</div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="row">
+  <div class="panel"><h3>Domains</h3><div id="domains"></div></div>
+  <div class="panel"><h3>Latest lessons · exam-style questions</h3><div id="recent"></div></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+  const d = window.DATA;
+  const cur = d.domains[d.current - 1];
+  const $ = (id) => document.getElementById(id);
+
+  $('title').textContent = `Domain ${cur.number}${cur.title ? ' · ' + cur.title : ''}`;
+  $('meta').innerHTML = `${d.days} study day${d.days === 1 ? '' : 's'}<br>last session ${d.updated ?? '–'}`;
+
+  const pct = cur.total ? cur.done / cur.total : 0;
+  const R = 58, C = 2 * Math.PI * R;
+  const gauge = `<svg class="gauge" viewBox="0 0 136 136">
+    <circle cx="68" cy="68" r="${R}" fill="none" stroke="#3a2f18" stroke-width="12"/>
+    <circle cx="68" cy="68" r="${R}" fill="none" stroke="#f2a541" stroke-width="12" stroke-linecap="round"
+      stroke-dasharray="${C * pct} ${C}" transform="rotate(-90 68 68)"/>
+    <text x="68" y="76" text-anchor="middle" fill="#eef1f7" font-size="26" font-weight="700"
+      font-family="Segoe UI, sans-serif">${Math.round(pct * 100)}%</text>
+  </svg>`;
+
+  $('kpis').innerHTML = `
+    <div class="kpi hero">
+      <div class="lab">Domain ${cur.number} lessons</div>
+      <div class="val">${cur.done}<small>/ ${cur.total ?? '?'}</small></div>
+      <div class="note">next: ${(d.next ?? '–').replace(/^\d+\.\s*/, '')}</div>
+      ${gauge}
+    </div>
+    <div class="kpi">
+      <div class="lab">Exam-style accuracy</div>
+      <div class="val">${d.accuracy ?? '–'}<small>%</small></div>
+      <div class="note">${d.right} of ${d.asked} right</div>
+    </div>
+    <div class="kpi">
+      <div class="lab">Weak spots</div>
+      <div class="val" style="color:${d.weak.length ? 'var(--coral)' : 'var(--teal)'}">${d.weak.length}</div>
+      <div class="note">under review next session</div>
+    </div>
+    <div class="kpi">
+      <div class="lab">Mock exams</div>
+      <div class="val">${d.mocks.length}<small>/ ${d.domains.length}</small></div>
+      <div class="note">10 questions per domain</div>
+    </div>`;
+
+  $('domains').innerHTML = d.domains.map((dom) => {
+    const p = dom.total ? Math.round((dom.done / dom.total) * 100) : 0;
+    return `<div class="dom ${dom.number === d.current ? 'on' : ''}">
+      <span class="n">DOMAIN ${dom.number}</span>
+      <div class="bar"><b style="width:${p}%"></b></div>
+      <span class="c">${dom.total ? dom.done + '/' + dom.total : 'soon'}</span>
+    </div>`;
+  }).join('');
+
+  $('recent').innerHTML = d.recent.map((l) => {
+    const dots = Array.from({ length: l.asked }, (_, i) =>
+      `<i class="${i < l.right ? '' : 'miss'}"></i>`).join('');
+    return `<div class="les"><span class="num">${String(l.number).padStart(2, '0')}</span>
+      <span class="t">${l.title}</span><span class="dots">${dots}</span></div>`;
+  }).join('');
+</script>
+</body>
+</html>
