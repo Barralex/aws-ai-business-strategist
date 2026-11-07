@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 17 (título a confirmar)
+Próxima lección: 21 (título a confirmar)
 
 ## Temario
 
@@ -27,6 +27,10 @@ Próxima lección: 17 (título a confirmar)
 - [x] 14. AI Agents (3/3)
 - [x] 15. Drift and Monitoring (2/3)
 - [x] 16. Shadow AI (3/3)
+- [x] 17. Generative Language Models (3/3)
+- [x] 18. Prompt Engineering (3/3)
+- [x] 19. RAG and Fine-Tuning (3/3)
+- [x] 20. Guardrails (2/2)
 - El resto se suma a medida que avanzamos.
 
 ## Puntos flojos
@@ -51,3 +55,7 @@ Ninguno todavía.
 - 2026-11-07: lección 14, 3/3 (agent = actúa solo, multi-step, sin persona en cada paso; lenguaje natural, RAG y foundation model no lo hacen agent).
 - 2026-11-07: lección 15, 2/3 (falló bias drift vs data drift, la sacó con pista; drift no tira errores, AI es operating commitment).
 - 2026-11-07: lección 16, 3/3 (transparent tool classification en 3 estados + request route; bloquear, capacitar o aprobar por gerente fallan; riesgo de datos e IP).
+- 2026-11-07: lección 17, 3/3 (LLM non-deterministic: próxima palabra por probabilidad; texto e imagen; resultado idéntico exigido = reglas).
+- 2026-11-07: lección 18, 3/3 (prompt engineering = task, context, examples, material; 4 principios; no cambia el modelo y es lo más barato).
+- 2026-11-07: lección 19, 3/3 (knowledge nuevo = RAG/grounding, behavior nuevo = fine-tuning; palancas por costo: prompt → RAG → fine-tuning; foundation model ⊃ LLM).
+- 2026-11-07: lección 20, 2/2 (guardrail filtra entrada y salida: temas, contenido dañino, datos sensibles, prompt injection; no agrega datos ni arregla formato; uno sirve para cualquier modelo).

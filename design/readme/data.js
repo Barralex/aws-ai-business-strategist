@@ -3,19 +3,19 @@ window.DATA = {
   "updated": "2026-11-07",
   "started": "2026-11-06",
   "days": 2,
-  "lessonsDone": 13,
+  "lessonsDone": 17,
   "skipped": 2,
-  "right": 32,
-  "asked": 35,
-  "accuracy": 91,
+  "right": 43,
+  "asked": 46,
+  "accuracy": 93,
   "domains": [
     {
       "number": 1,
       "title": "AI Fundamentals and Literacy",
-      "done": 12,
+      "done": 16,
       "total": 23,
-      "right": 32,
-      "asked": 35
+      "right": 43,
+      "asked": 46
     },
     {
       "number": 2,
@@ -43,39 +43,39 @@ window.DATA = {
     }
   ],
   "current": 1,
-  "next": "17 (título a confirmar)",
+  "next": "21 (título a confirmar)",
   "recent": [
+    {
+      "number": 20,
+      "title": "Guardrails",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
+    {
+      "number": 19,
+      "title": "RAG and Fine-Tuning",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 18,
+      "title": "Prompt Engineering",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 17,
+      "title": "Generative Language Models",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 16,
       "title": "Shadow AI",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 15,
-      "title": "Drift and Monitoring",
-      "state": "done",
-      "right": 2,
-      "asked": 3
-    },
-    {
-      "number": 14,
-      "title": "AI Agents",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 13,
-      "title": "Rules or AI?",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 12,
-      "title": "AI Standards: ISO/IEC 23053 and ISO/IEC 42001",
       "state": "done",
       "right": 3,
       "asked": 3

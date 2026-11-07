@@ -5,8 +5,8 @@
 
 <!-- badges:start -->
 [![Exam](https://img.shields.io/badge/exam-AIB--C01-1B2440?style=flat-square)](#the-brief)
-[![Domain](https://img.shields.io/badge/domain%201-12%2F23%20lessons-E0A13A?style=flat-square)](#progress)
-[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-91%25%20%2832%2F35%29-2E9E83?style=flat-square)](#progress)
+[![Domain](https://img.shields.io/badge/domain%201-16%2F23%20lessons-E0A13A?style=flat-square)](#progress)
+[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-93%25%20%2843%2F46%29-2E9E83?style=flat-square)](#progress)
 [![Mocks](https://img.shields.io/badge/mock%20exams-0%2F4-5F6073?style=flat-square)](#progress)
 [![License](https://img.shields.io/badge/license-proprietary-4A4E6D?style=flat-square)](LICENSE)
 <!-- badges:end -->
@@ -43,12 +43,12 @@ The course transcripts and slides stay on my machine: they belong to the course 
 <!-- progress:start -->
 | | Domain | Lessons | Exam-style | |
 |---|---|---|---|---|
-| 1 | AI Fundamentals and Literacy | 12/23 | 32/35 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
+| 1 | AI Fundamentals and Literacy | 16/23 | 43/46 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
 | 2 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 3 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 4 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 
-**Next up:** 17 (título a confirmar)
+**Next up:** 21 (título a confirmar)
 
 **Weak spots under review** (logged in Spanish, as studied):
 
