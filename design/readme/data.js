@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 28,
+  "lessonsDone": 36,
   "skipped": 2,
-  "right": 71,
-  "asked": 72,
-  "accuracy": 99,
+  "right": 87,
+  "asked": 89,
+  "accuracy": 98,
   "domains": [
     {
       "number": 1,
@@ -20,10 +20,10 @@ window.DATA = {
     {
       "number": 2,
       "title": "AI Strategy and Business Value Creation",
-      "done": 7,
+      "done": 18,
       "total": 18,
-      "right": 17,
-      "asked": 18
+      "right": 33,
+      "asked": 35
     },
     {
       "number": 3,
@@ -42,47 +42,48 @@ window.DATA = {
       "asked": 0
     }
   ],
-  "current": 2,
-  "next": "32. Attribution and the Value Statement",
+  "current": 1,
+  "next": null,
   "recent": [
     {
-      "number": 31,
-      "title": "KPIs",
-      "state": "done",
-      "right": 2,
-      "asked": 3
-    },
-    {
-      "number": 30,
-      "title": "Moving a Live Process to AI",
+      "number": 39,
+      "title": "Domain 2 Wrap-up: The Business Case",
       "state": "done",
       "right": 2,
       "asked": 2
     },
     {
-      "number": 29,
-      "title": "Managing the AI Portfolio",
+      "number": 38,
+      "title": "AWS Services for Domain 2",
       "state": "done",
       "right": 3,
       "asked": 3
     },
     {
-      "number": 28,
-      "title": "Build, Buy or Partner",
+      "number": 37,
+      "title": "Controlling Cost and Ownership",
       "state": "done",
-      "right": 3,
-      "asked": 3
+      "right": 1,
+      "asked": 2
     },
     {
-      "number": 27,
-      "title": "Rules Before AI",
+      "number": 36,
+      "title": "Business Model Transformation",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
+    {
+      "number": 35,
+      "title": "Improvement or Competitive Advantage",
       "state": "done",
       "right": 2,
       "asked": 2
     }
   ],
   "weak": [
-    "Baseline creíble: confundió \"mismo método\" con \"mismos datos\" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable)."
+    "Baseline creíble: confundió \"mismo método\" con \"mismos datos\" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).",
+    "Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción \"proven → equipo que se beneficia\" con \"cobrar desde el día uno\". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso."
   ],
   "mocks": []
 };
