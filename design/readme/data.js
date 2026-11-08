@@ -3,10 +3,10 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 37,
+  "lessonsDone": 39,
   "skipped": 2,
-  "right": 89,
-  "asked": 91,
+  "right": 94,
+  "asked": 96,
   "accuracy": 98,
   "domains": [
     {
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 1,
-      "total": 1,
-      "right": 2,
-      "asked": 2
+      "done": 3,
+      "total": 3,
+      "right": 7,
+      "asked": 7
     },
     {
       "number": 4,
@@ -45,6 +45,20 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 42,
+      "title": "Responsible AI Tradeoffs",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
+    {
+      "number": 41,
+      "title": "Responsible AI",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 40,
       "title": "Domain 3 Overview and CozyCo PayLater",
@@ -65,20 +79,6 @@ window.DATA = {
       "state": "done",
       "right": 3,
       "asked": 3
-    },
-    {
-      "number": 37,
-      "title": "Controlling Cost and Ownership",
-      "state": "done",
-      "right": 1,
-      "asked": 2
-    },
-    {
-      "number": 36,
-      "title": "Business Model Transformation",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
   "weak": [

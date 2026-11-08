@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 41 (sección 5, Domain 3), título a confirmar
+Próximo: lección 43 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -61,6 +61,8 @@ Próximo: lección 41 (sección 5, Domain 3), título a confirmar
 
 ### Sección 5: Domain 3: AI Governance and Responsible AI Leadership
 - [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
+- [x] 41. Responsible AI (3/3)
+- [x] 42. Responsible AI Tradeoffs (2/2)
 
 ## Puntos flojos
 
@@ -114,3 +116,5 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-08: lección 39, 2/2 (business case en una página, 8 piezas: outcome sin tecnología, path, cuándo no es IA, KPIs con baseline, costo con run, attribution, leading indicator, improvement o advantage). Fin de las lecciones del dominio 2.
 - 2026-11-08: cuestionarios 3 y 4 y role play 2 hechos en Udemy (sin puntaje anotado). Dominio 2 cerrado; simulacro pendiente. Arranca el dominio 3.
 - 2026-11-08: lección 40, 2/2 (1/2 al primer intento; el problema de PayLater es que decide solo el 70% sin poder explicar un rechazo, no el 94%; con pista ubicó governance body y risk classes en governance y compliance, no en enterprise AI risks).
+- 2026-11-08: lección 41, 3/3 (8 dimensiones de responsible AI; transparency = avisar que hay IA vs explainability = el motivo de este resultado; accuracy se mide sobre todos, fairness grupo por grupo; dueño con autoridad = governance, poder apagarlo = controllability).
+- 2026-11-08: lección 42, 2/2 (3 tradeoffs: accuracy vs explainability, speed vs safety, personalization vs privacy; se resuelven nombrando la tensión, dejando que el contexto marque lo innegociable, sumando algo que mantenga las dos y con el accountable owner decidiendo por escrito; en bajo riesgo interno nada es innegociable).
