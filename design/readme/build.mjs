@@ -134,32 +134,61 @@ function parse(md) {
 
 // ---------- 2. README blocks ----------
 
-const esc = (s) =>
-  encodeURIComponent(s).replace(/-/g, '--').replace(/\(/g, '%28').replace(/\)/g, '%29');
-const badge = (label, value, color) =>
-  `https://img.shields.io/badge/${esc(label)}-${esc(value)}-${color}?style=flat-square`;
+// Badges are drawn here as SVG files in the repo, not linked from shields.io: GitHub's image proxy
+// times out on fresh shields.io URLs and shows a broken image.
+const BADGES = join(OUT, 'badges');
+const xml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const textWidth = (s) =>
+  [...s].reduce((w, c) => {
+    if (/[ il.,:;!|'()\/\[\]1fjtrI]/.test(c)) return w + 3.9;
+    if (/[mwMW%]/.test(c)) return w + 10;
+    if (/[A-Z0-9]/.test(c)) return w + 7.4;
+    return w + 6.6;
+  }, 0);
+
+/** Writes assets/readme/badges/<slot>.svg (flat-square look) and returns its README path. */
+function badge(slot, label, value, color) {
+  const part = (text) => (text ? Math.round(textWidth(text)) + 12 : 0);
+  const lw = part(label);
+  const vw = part(value);
+  const text = (s, x, w) =>
+    `<text x="${x + w / 2}" y="14" textLength="${w - 12}" lengthAdjust="spacingAndGlyphs">${xml(s)}</text>`;
+  const svg = [
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${lw + vw}" height="20" role="img" aria-label="${xml([label, value].filter(Boolean).join(': '))}">`,
+    lw ? `<rect width="${lw}" height="20" fill="#555"/>` : '',
+    `<rect x="${lw}" width="${vw}" height="20" fill="#${color}"/>`,
+    `<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">`,
+    lw ? text(label, 0, lw) : '',
+    text(value, lw, vw),
+    '</g></svg>',
+  ].join('');
+  mkdirSync(BADGES, { recursive: true });
+  writeFileSync(join(BADGES, `${slot}.svg`), svg + '\n');
+  return `assets/readme/badges/${slot}.svg`;
+}
 
 function badgesBlock(d) {
   const acc = d.accuracy ?? 0;
   const accColor = acc >= 85 ? '2E9E83' : acc >= 70 ? 'E0A13A' : 'C9544A';
   const cur = d.domains[d.current - 1];
   return [
-    `[![Exam](${badge('exam', 'AIB-C01', '1B2440')})](#the-brief)`,
-    `[![Domain](${badge(`domain ${cur.number}`, `${cur.done}/${cur.total ?? '?'} lessons`, 'E0A13A')})](#progress)`,
-    `[![Accuracy](${badge('exam-style accuracy', `${acc}% (${d.right}/${d.asked})`, accColor)})](#progress)`,
-    `[![Mocks](${badge('mock exams', `${d.mocks.length}/${DOMAINS}`, '5F6073')})](#progress)`,
-    `[![License](${badge('license', 'proprietary', '4A4E6D')})](LICENSE)`,
+    `[![Exam](${badge('exam', 'exam', 'AIB-C01', '1B2440')})](#the-brief)`,
+    `[![Domain](${badge('domain', `domain ${cur.number}`, `${cur.done}/${cur.total ?? '?'} lessons`, 'E0A13A')})](#progress)`,
+    `[![Accuracy](${badge('accuracy', 'exam-style accuracy', `${acc}% (${d.right}/${d.asked})`, accColor)})](#progress)`,
+    `[![Mocks](${badge('mocks', 'mock exams', `${d.mocks.length}/${DOMAINS}`, '5F6073')})](#progress)`,
+    `[![License](${badge('license', 'license', 'proprietary', '4A4E6D')})](LICENSE)`,
   ].join('\n');
 }
 
 function progressBlock(d) {
-  const pill = (text, color) => `![${text}](${badge('', text, color)})`;
+  const pill = (slot, text, color) => `![${text}](${badge(slot, '', text, color)})`;
   const rows = d.domains.map((dom) => {
     const name = dom.title ?? '_not reached yet_';
+    const slot = `status-domain-${dom.number}`;
     let status;
-    if (!dom.total || dom.done === 0) status = pill('not started', '5F6073');
-    else if (dom.done >= dom.total) status = pill('done', '2E9E83');
-    else status = pill('in progress', 'E0A13A');
+    if (!dom.total || dom.done === 0) status = pill(slot, 'not started', '5F6073');
+    else if (dom.done >= dom.total) status = pill(slot, 'done', '2E9E83');
+    else status = pill(slot, 'in progress', 'E0A13A');
     const lessons = dom.total ? `${dom.done}/${dom.total}` : '–';
     const score = dom.asked ? `${dom.right}/${dom.asked}` : '–';
     return `| ${dom.number} | ${name} | ${lessons} | ${score} | ${status} |`;
