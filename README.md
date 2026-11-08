@@ -4,11 +4,11 @@
 <br><br>
 
 <!-- badges:start -->
-[![Exam](https://img.shields.io/badge/exam-AIB--C01-1B2440?style=flat-square)](#the-brief)
-[![Domain](https://img.shields.io/badge/domain%202-6%2F18%20lessons-E0A13A?style=flat-square)](#progress)
-[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-94%25%20%2865%2F69%29-2E9E83?style=flat-square)](#progress)
-[![Mocks](https://img.shields.io/badge/mock%20exams-0%2F4-5F6073?style=flat-square)](#progress)
-[![License](https://img.shields.io/badge/license-proprietary-4A4E6D?style=flat-square)](LICENSE)
+[![Exam](assets/readme/badges/exam.svg)](#the-brief)
+[![Domain](assets/readme/badges/domain.svg)](#progress)
+[![Accuracy](assets/readme/badges/accuracy.svg)](#progress)
+[![Mocks](assets/readme/badges/mocks.svg)](#progress)
+[![License](assets/readme/badges/license.svg)](LICENSE)
 <!-- badges:end -->
 
 ### Studying for the AWS Certified AI Business Strategist, out loud.
@@ -43,10 +43,10 @@ The course transcripts and slides stay on my machine: they belong to the course 
 <!-- progress:start -->
 | | Domain | Lessons | Exam-style | |
 |---|---|---|---|---|
-| 1 | AI Fundamentals and Literacy | 23/23 | 51/54 | ![done](https://img.shields.io/badge/-done-2E9E83?style=flat-square) |
-| 2 | AI Strategy and Business Value Creation | 6/18 | 14/15 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
-| 3 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
-| 4 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
+| 1 | AI Fundamentals and Literacy | 23/23 | 54/54 | ![done](assets/readme/badges/status-domain-1.svg) |
+| 2 | AI Strategy and Business Value Creation | 6/18 | 15/15 | ![in progress](assets/readme/badges/status-domain-2.svg) |
+| 3 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-3.svg) |
+| 4 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-4.svg) |
 
 **Next up:** 31. KPIs
 

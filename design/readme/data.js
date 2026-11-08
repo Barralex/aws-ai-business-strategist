@@ -5,16 +5,16 @@ window.DATA = {
   "days": 3,
   "lessonsDone": 27,
   "skipped": 2,
-  "right": 65,
+  "right": 69,
   "asked": 69,
-  "accuracy": 94,
+  "accuracy": 100,
   "domains": [
     {
       "number": 1,
       "title": "AI Fundamentals and Literacy",
       "done": 23,
       "total": 23,
-      "right": 51,
+      "right": 54,
       "asked": 54
     },
     {
@@ -22,7 +22,7 @@ window.DATA = {
       "title": "AI Strategy and Business Value Creation",
       "done": 6,
       "total": 18,
-      "right": 14,
+      "right": 15,
       "asked": 15
     },
     {
@@ -56,7 +56,7 @@ window.DATA = {
       "number": 29,
       "title": "Managing the AI Portfolio",
       "state": "done",
-      "right": 2,
+      "right": 3,
       "asked": 3
     },
     {
