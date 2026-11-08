@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 24,
+  "lessonsDone": 26,
   "skipped": 2,
-  "right": 58,
-  "asked": 61,
-  "accuracy": 95,
+  "right": 63,
+  "asked": 67,
+  "accuracy": 94,
   "domains": [
     {
       "number": 1,
@@ -20,10 +20,10 @@ window.DATA = {
     {
       "number": 2,
       "title": "AI Strategy and Business Value Creation",
-      "done": 3,
+      "done": 5,
       "total": 18,
-      "right": 7,
-      "asked": 7
+      "right": 12,
+      "asked": 13
     },
     {
       "number": 3,
@@ -43,11 +43,25 @@ window.DATA = {
     }
   ],
   "current": 1,
-  "next": "28 (título a confirmar)",
+  "next": "30. Moving a Live Process to AI",
   "recent": [
     {
+      "number": 29,
+      "title": "Managing the AI Portfolio",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
+    {
+      "number": 28,
+      "title": "Build, Buy or Partner",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
       "number": 27,
-      "title": "Rules in the Proposal",
+      "title": "Rules Before AI",
       "state": "done",
       "right": 2,
       "asked": 2
@@ -65,23 +79,10 @@ window.DATA = {
       "state": "done",
       "right": 2,
       "asked": 2
-    },
-    {
-      "number": 23,
-      "title": "AWS Services for Domain 1",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 22,
-      "title": "Diagnosing a GenAI Complaint",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
   "weak": [
+    "Sunk cost vs pause: ante \"ya invertimos 2 millones, no podemos abandonarlo\" (sin uso ni mejora) eligió pausar para arreglar datos que no eran el problema. Pause solo si podés nombrar problema, arreglo y fecha; si el único argumento es lo ya gastado, es sunk cost → terminate. La sacó con pista. (lección 29)",
     "Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)"
   ],
   "mocks": []
