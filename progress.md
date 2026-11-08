@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 25. Domain 2 Overview (título a confirmar)
+Próxima lección: 28 (título a confirmar)
 
 ## Temario
 
@@ -40,7 +40,10 @@ Próxima lección: 25. Domain 2 Overview (título a confirmar)
 - Role play 1: The First AI Meeting at CozyCo (hecho en Udemy)
 
 ### Sección 4: Domain 2: AI Strategy and Business Value Creation (18 lecciones, 1 role play)
-- Se suma a medida que avanzamos.
+- [x] 25. Domain 2 Overview and CozyCo's Numbers (2/2)
+- [x] 26. AI Use Case (3/3)
+- [x] 27. Rules in the Proposal (2/2)
+- El resto se suma a medida que avanzamos.
 
 ## Puntos flojos
 
@@ -74,3 +77,6 @@ Ninguno todavía. Pendiente: el del dominio 1 (se pasó directo al dominio 2).
 - 2026-11-07: cuestionarios de Udemy del dominio 1: AWS Services 4/4, AI Fundamentals and Literacy 18/18.
 - 2026-11-07: lección 24 vista (método de 6 pasos y CozyCo), sin preguntas: pasamos directo al role play.
 - 2026-11-07: role play 1 hecho en Udemy (The First AI Meeting at CozyCo). Simulacro del dominio 1 queda pendiente. Arranca el dominio 2.
+- 2026-11-07: lección 25, 2/2 (dominio 2 = ¿vale la pena financiarlo y cómo se prueba?; más peso en el examen; baseline del ruteo: 14% de rebote y 3,1 días).
+- 2026-11-07: lección 26, 3/3 (use case = capability + mechanism + outcome con números; arrancar por el outcome, no la tecnología; orden outcome → feasibility → budget).
+- 2026-11-08: lección 27, 2/2 (la decisión regla vs AI se escribe como oración en la propuesta; regla = sin costo de uso, sin monitoreo de modelo ni drift, aunque se reportan sus resultados).

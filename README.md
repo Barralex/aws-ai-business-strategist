@@ -6,7 +6,7 @@
 <!-- badges:start -->
 [![Exam](https://img.shields.io/badge/exam-AIB--C01-1B2440?style=flat-square)](#the-brief)
 [![Domain](https://img.shields.io/badge/domain%201-20%2F23%20lessons-E0A13A?style=flat-square)](#progress)
-[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-94%25%20%2851%2F54%29-2E9E83?style=flat-square)](#progress)
+[![Accuracy](https://img.shields.io/badge/exam--style%20accuracy-95%25%20%2858%2F61%29-2E9E83?style=flat-square)](#progress)
 [![Mocks](https://img.shields.io/badge/mock%20exams-0%2F4-5F6073?style=flat-square)](#progress)
 [![License](https://img.shields.io/badge/license-proprietary-4A4E6D?style=flat-square)](LICENSE)
 <!-- badges:end -->
@@ -44,17 +44,17 @@ The course transcripts and slides stay on my machine: they belong to the course 
 | | Domain | Lessons | Exam-style | |
 |---|---|---|---|---|
 | 1 | AI Fundamentals and Literacy | 20/23 | 51/54 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
-| 2 | AI Strategy and Business Value Creation | 0/18 | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
+| 2 | AI Strategy and Business Value Creation | 3/18 | 7/7 | ![in progress](https://img.shields.io/badge/-in%20progress-E0A13A?style=flat-square) |
 | 3 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 | 4 | _not reached yet_ | – | – | ![not started](https://img.shields.io/badge/-not%20started-5F6073?style=flat-square) |
 
-**Next up:** 25. Domain 2 Overview (título a confirmar)
+**Next up:** 28 (título a confirmar)
 
 **Weak spots under review** (logged in Spanish, as studied):
 
 - Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)
 
-<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-07.</sub>
+<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-08.</sub>
 <!-- progress:end -->
 
 ## License
