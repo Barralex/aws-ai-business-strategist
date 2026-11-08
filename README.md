@@ -44,11 +44,15 @@ The course transcripts and slides stay on my machine: they belong to the course 
 | | Domain | Lessons | Exam-style | |
 |---|---|---|---|---|
 | 1 | AI Fundamentals and Literacy | 23/23 | 54/54 | ![done](assets/readme/badges/status-domain-1.svg) |
-| 2 | AI Strategy and Business Value Creation | 6/18 | 15/15 | ![in progress](assets/readme/badges/status-domain-2.svg) |
+| 2 | AI Strategy and Business Value Creation | 7/18 | 17/18 | ![in progress](assets/readme/badges/status-domain-2.svg) |
 | 3 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-3.svg) |
 | 4 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-4.svg) |
 
-**Next up:** 31. KPIs
+**Next up:** 32. Attribution and the Value Statement
+
+**Weak spots under review** (logged in Spanish, as studied):
+
+- Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
 
 <sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-08.</sub>
 <!-- progress:end -->

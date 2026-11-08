@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 27,
+  "lessonsDone": 28,
   "skipped": 2,
-  "right": 69,
-  "asked": 69,
-  "accuracy": 100,
+  "right": 71,
+  "asked": 72,
+  "accuracy": 99,
   "domains": [
     {
       "number": 1,
@@ -20,10 +20,10 @@ window.DATA = {
     {
       "number": 2,
       "title": "AI Strategy and Business Value Creation",
-      "done": 6,
+      "done": 7,
       "total": 18,
-      "right": 15,
-      "asked": 15
+      "right": 17,
+      "asked": 18
     },
     {
       "number": 3,
@@ -43,8 +43,15 @@ window.DATA = {
     }
   ],
   "current": 2,
-  "next": "31. KPIs",
+  "next": "32. Attribution and the Value Statement",
   "recent": [
+    {
+      "number": 31,
+      "title": "KPIs",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
     {
       "number": 30,
       "title": "Moving a Live Process to AI",
@@ -72,15 +79,10 @@ window.DATA = {
       "state": "done",
       "right": 2,
       "asked": 2
-    },
-    {
-      "number": 26,
-      "title": "AI Use Case",
-      "state": "done",
-      "right": 3,
-      "asked": 3
     }
   ],
-  "weak": [],
+  "weak": [
+    "Baseline creíble: confundió \"mismo método\" con \"mismos datos\" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable)."
+  ],
   "mocks": []
 };

@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 31. KPIs
+Próxima lección: 32. Attribution and the Value Statement
 
 ## Temario
 
@@ -46,7 +46,7 @@ Próxima lección: 31. KPIs
 - [x] 28. Build, Buy or Partner (3/3)
 - [x] 29. Managing the AI Portfolio (3/3, 2/3 al primer intento)
 - [x] 30. Moving a Live Process to AI (2/2)
-- [ ] 31. KPIs
+- [x] 31. KPIs (2/3)
 - [ ] 32. Attribution and the Value Statement
 - [ ] 33. ROI
 - [ ] 34. Leading Indicators
@@ -61,7 +61,7 @@ Próxima lección: 31. KPIs
 
 ## Puntos flojos
 
-- Ninguno abierto. Sunk cost vs pause y bias drift vs data drift, resueltos en el repaso del 2026-11-08.
+- Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
 
 ## Simulacros
 
@@ -98,3 +98,4 @@ Ninguno todavía. Pendiente: el del dominio 1 (se pasó directo al dominio 2).
 - 2026-11-08: lección 29, 2/3 (4 criterios para rankear; scale/pause/terminate; falló sunk cost vs pause con pista; pidió explicación con dibujos y analogía del plato nuevo).
 - 2026-11-08: repaso 2/2 (sunk cost → terminate; bias drift con total estable y un grupo peor), ambos resueltos.
 - 2026-11-08: lección 30, 2/2 (4 chequeos antes del switch: business continuity, cost one-time + mensual, data readiness, performance parity en pilot; cambiar de plataforma solo si el problema es la plataforma, por los costos ocultos).
+- 2026-11-08: lección 31, 2/3 (KPI tangible vs intangible; no sirven inputs, infra ni resultados de toda la empresa; falló "which most undermines": períodos no comparables, con pista; la opción B estaba mal redactada; baseline sin registro = claim, not evidence).
