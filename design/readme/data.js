@@ -3,10 +3,10 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 36,
+  "lessonsDone": 37,
   "skipped": 2,
-  "right": 87,
-  "asked": 89,
+  "right": 89,
+  "asked": 91,
   "accuracy": 98,
   "domains": [
     {
@@ -27,11 +27,11 @@ window.DATA = {
     },
     {
       "number": 3,
-      "title": null,
-      "done": 0,
-      "total": null,
-      "right": 0,
-      "asked": 0
+      "title": "AI Governance and Responsible AI Leadership",
+      "done": 1,
+      "total": 1,
+      "right": 2,
+      "asked": 2
     },
     {
       "number": 4,
@@ -45,6 +45,13 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 40,
+      "title": "Domain 3 Overview and CozyCo PayLater",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
     {
       "number": 39,
       "title": "Domain 2 Wrap-up: The Business Case",
@@ -72,18 +79,12 @@ window.DATA = {
       "state": "done",
       "right": 2,
       "asked": 2
-    },
-    {
-      "number": 35,
-      "title": "Improvement or Competitive Advantage",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
   "weak": [
     "Baseline creíble: confundió \"mismo método\" con \"mismos datos\" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).",
-    "Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción \"proven → equipo que se beneficia\" con \"cobrar desde el día uno\". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso."
+    "Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción \"proven → equipo que se beneficia\" con \"cobrar desde el día uno\". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso.",
+    "Tareas del dominio 3: puso governance body + risk classes en \"Enterprise AI risks\". Repasar el orden: principios (responsible AI en decisiones) → estructuras (governance y compliance) → riesgos en producción (monitoring, bias, harmful content, IP, reliability)."
   ],
   "mocks": []
 };

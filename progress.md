@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: sección 5, Domain 3: AI Governance and Responsible AI (primera lección a confirmar)
+Próximo: lección 41 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -59,10 +59,14 @@ Próximo: sección 5, Domain 3: AI Governance and Responsible AI (primera lecci�
 - Cuestionario 4: AI Strategy and Business Value Creation Quiz (hecho en Udemy)
 - Role play 2: The Ticket Routing Business Case (hecho en Udemy)
 
+### Sección 5: Domain 3: AI Governance and Responsible AI Leadership
+- [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
+
 ## Puntos flojos
 
 - Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
 - Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción "proven → equipo que se beneficia" con "cobrar desde el día uno". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso.
+- Tareas del dominio 3: puso governance body + risk classes en "Enterprise AI risks". Repasar el orden: principios (responsible AI en decisiones) → estructuras (governance y compliance) → riesgos en producción (monitoring, bias, harmful content, IP, reliability).
 
 ## Simulacros
 
@@ -109,3 +113,4 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-08: lección 38, 3/3 (Bedrock = buy, rápido pero copiable; SageMaker = build/own, ventaja durable; Marketplace = buy y partner; Quick lee KPIs, no la factura; Pricing Calculator estima antes, Cost Explorer gasto real por tag, Savings Plans con uso estable a 1 o 3 años).
 - 2026-11-08: lección 39, 2/2 (business case en una página, 8 piezas: outcome sin tecnología, path, cuándo no es IA, KPIs con baseline, costo con run, attribution, leading indicator, improvement o advantage). Fin de las lecciones del dominio 2.
 - 2026-11-08: cuestionarios 3 y 4 y role play 2 hechos en Udemy (sin puntaje anotado). Dominio 2 cerrado; simulacro pendiente. Arranca el dominio 3.
+- 2026-11-08: lección 40, 2/2 (1/2 al primer intento; el problema de PayLater es que decide solo el 70% sin poder explicar un rechazo, no el 94%; con pista ubicó governance body y risk classes en governance y compliance, no en enterprise AI risks).
