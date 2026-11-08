@@ -58,8 +58,14 @@ function parse(md) {
         domain: domain ? Number(domain[1]) : null,
         total: head[3] ? Number(head[3]) : null,
         lessons: [],
+        extras: [], // Udemy quizzes and role plays: count toward the domain total, not the score
       };
       sections.push(section);
+      continue;
+    }
+    const extra = line.match(/^- (?:Cuestionario|Role play) \d+: (.+)$/);
+    if (extra && section) {
+      section.extras.push({ done: /\((?:[^)]*\d+\/\d+|hecho)[^)]*\)/i.test(extra[1]) });
       continue;
     }
     const lesson = line.match(/^- \[( |x|~)\] (\d+)\. (.+?)(?: \(([^)]*)\))?$/);
@@ -93,8 +99,9 @@ function parse(md) {
     return {
       number: i + 1,
       title: s.title,
-      done: s.lessons.filter((l) => l.state === 'done').length,
-      total: s.total ?? s.lessons.length,
+      done:
+        s.lessons.filter((l) => l.state === 'done').length + s.extras.filter((e) => e.done).length,
+      total: s.total ?? s.lessons.length + s.extras.length,
       right: sc.reduce((n, l) => n + l.right, 0),
       asked: sc.reduce((n, l) => n + l.asked, 0),
     };
