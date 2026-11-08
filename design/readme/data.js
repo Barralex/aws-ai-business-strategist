@@ -3,16 +3,16 @@ window.DATA = {
   "updated": "2026-11-08",
   "started": "2026-11-06",
   "days": 3,
-  "lessonsDone": 26,
+  "lessonsDone": 27,
   "skipped": 2,
-  "right": 63,
-  "asked": 67,
+  "right": 65,
+  "asked": 69,
   "accuracy": 94,
   "domains": [
     {
       "number": 1,
       "title": "AI Fundamentals and Literacy",
-      "done": 20,
+      "done": 23,
       "total": 23,
       "right": 51,
       "asked": 54
@@ -20,10 +20,10 @@ window.DATA = {
     {
       "number": 2,
       "title": "AI Strategy and Business Value Creation",
-      "done": 5,
+      "done": 6,
       "total": 18,
-      "right": 12,
-      "asked": 13
+      "right": 14,
+      "asked": 15
     },
     {
       "number": 3,
@@ -42,9 +42,16 @@ window.DATA = {
       "asked": 0
     }
   ],
-  "current": 1,
-  "next": "30. Moving a Live Process to AI",
+  "current": 2,
+  "next": "31. KPIs",
   "recent": [
+    {
+      "number": 30,
+      "title": "Moving a Live Process to AI",
+      "state": "done",
+      "right": 2,
+      "asked": 2
+    },
     {
       "number": 29,
       "title": "Managing the AI Portfolio",
@@ -72,18 +79,8 @@ window.DATA = {
       "state": "done",
       "right": 3,
       "asked": 3
-    },
-    {
-      "number": 25,
-      "title": "Domain 2 Overview and CozyCo's Numbers",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
-  "weak": [
-    "Sunk cost vs pause: ante \"ya invertimos 2 millones, no podemos abandonarlo\" (sin uso ni mejora) eligió pausar para arreglar datos que no eran el problema. Pause solo si podés nombrar problema, arreglo y fecha; si el único argumento es lo ya gastado, es sunk cost → terminate. La sacó con pista. (lección 29)",
-    "Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)"
-  ],
+  "weak": [],
   "mocks": []
 };

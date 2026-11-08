@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próxima lección: 30. Moving a Live Process to AI
+Próxima lección: 31. KPIs
 
 ## Temario
 
@@ -45,7 +45,7 @@ Próxima lección: 30. Moving a Live Process to AI
 - [x] 27. Rules Before AI (2/2)
 - [x] 28. Build, Buy or Partner (3/3)
 - [x] 29. Managing the AI Portfolio (2/3)
-- [ ] 30. Moving a Live Process to AI
+- [x] 30. Moving a Live Process to AI (2/2)
 - [ ] 31. KPIs
 - [ ] 32. Attribution and the Value Statement
 - [ ] 33. ROI
@@ -61,8 +61,7 @@ Próxima lección: 30. Moving a Live Process to AI
 
 ## Puntos flojos
 
-- Sunk cost vs pause: ante "ya invertimos 2 millones, no podemos abandonarlo" (sin uso ni mejora) eligió pausar para arreglar datos que no eran el problema. Pause solo si podés nombrar problema, arreglo y fecha; si el único argumento es lo ya gastado, es sunk cost → terminate. La sacó con pista. (lección 29)
-- Bias drift vs data drift: con el total estable y un grupo que cae (interior de 85% a 62%), eligió data drift. Total estable y un grupo peor = bias drift; data drift es que los inputs ya no se parecen a los de training. La sacó con pista. (lección 15)
+- Ninguno abierto. Sunk cost vs pause y bias drift vs data drift, resueltos en el repaso del 2026-11-08.
 
 ## Simulacros
 
@@ -97,3 +96,5 @@ Ninguno todavía. Pendiente: el del dominio 1 (se pasó directo al dominio 2).
 - 2026-11-08: lección 27, 2/2 (la decisión regla vs AI se escribe como oración en la propuesta; regla = sin costo de uso, sin monitoreo de modelo ni drift, aunque se reportan sus resultados).
 - 2026-11-08: lección 28, 3/3 (build = ventaja en datos propios, buy = velocidad sin diferenciación, partner = falta expertise; 5 restricciones pisan el default; falta de skills cambia el camino, nunca la decisión).
 - 2026-11-08: lección 29, 2/3 (4 criterios para rankear; scale/pause/terminate; falló sunk cost vs pause con pista; pidió explicación con dibujos y analogía del plato nuevo).
+- 2026-11-08: repaso 2/2 (sunk cost → terminate; bias drift con total estable y un grupo peor), ambos resueltos.
+- 2026-11-08: lección 30, 2/2 (4 chequeos antes del switch: business continuity, cost one-time + mensual, data readiness, performance parity en pilot; cambiar de plataforma solo si el problema es la plataforma, por los costos ocultos).
