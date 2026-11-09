@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 43 (sección 5, Domain 3), título a confirmar
+Próximo: lección 45 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -63,12 +63,12 @@ Próximo: lección 43 (sección 5, Domain 3), título a confirmar
 - [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
 - [x] 41. Responsible AI (3/3)
 - [x] 42. Responsible AI Tradeoffs (2/2)
+- [x] 43. Governance by Design and the Governance Body (3/3)
+- [x] 44. Human Oversight (3/3)
 
 ## Puntos flojos
 
 - Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
-- Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción "proven → equipo que se beneficia" con "cobrar desde el día uno". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso.
-- Tareas del dominio 3: puso governance body + risk classes en "Enterprise AI risks". Repasar el orden: principios (responsible AI en decisiones) → estructuras (governance y compliance) → riesgos en producción (monitoring, bias, harmful content, IP, reliability).
 
 ## Simulacros
 
@@ -118,3 +118,6 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-08: lección 40, 2/2 (1/2 al primer intento; el problema de PayLater es que decide solo el 70% sin poder explicar un rechazo, no el 94%; con pista ubicó governance body y risk classes en governance y compliance, no en enterprise AI risks).
 - 2026-11-08: lección 41, 3/3 (8 dimensiones de responsible AI; transparency = avisar que hay IA vs explainability = el motivo de este resultado; accuracy se mide sobre todos, fairness grupo por grupo; dueño con autoridad = governance, poder apagarlo = controllability).
 - 2026-11-08: lección 42, 2/2 (3 tradeoffs: accuracy vs explainability, speed vs safety, personalization vs privacy; se resuelven nombrando la tensión, dejando que el contexto marque lo innegociable, sumando algo que mantenga las dos y con el accountable owner decidiendo por escrito; en bajo riesgo interno nada es innegociable).
+- 2026-11-09: lección 43, 3/3 (governance by design: data, autonomy y explanation se deciden en el plan; touchpoints por etapa, el go-live gate atrapa pero no rediseña, reassess si cambia el uso; body = business, technical, legal/compliance, risk + un owner por sistema que aprueba o frena; CoE que aprueba todo, cada BU por su lado y deploy first no son governance).
+- 2026-11-09: repaso 2/2 (orden de las tareas del dominio 3: principios → estructuras → riesgos en producción; cost ownership: proven → cost center del equipo por uso, experiments → central AI budget), ambos resueltos.
+- 2026-11-09: lección 44, 3/3 (AI sola si hay poco en juego y es reversible; HITL si toca derechos, salud, seguridad, plata o acceso, es difícil de revertir, está regulado o la confidence no es confiable; 5 disparadores: confidence threshold, hallucination, guardrail, escalation criteria, audit trail; confidence-based routing gana a revisar todo, muestrear después o un disclaimer).

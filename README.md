@@ -45,7 +45,7 @@ The course transcripts and slides stay on my machine: they belong to the course 
 |---|---|---|---|---|
 | 1 | AI Fundamentals and Literacy | 23/23 | 54/54 | ![done](assets/readme/badges/status-domain-1.svg) |
 | 2 | AI Strategy and Business Value Creation | 18/18 | 33/35 | ![done](assets/readme/badges/status-domain-2.svg) |
-| 3 | AI Governance and Responsible AI Leadership | 3/3 | 7/7 | ![done](assets/readme/badges/status-domain-3.svg) |
+| 3 | AI Governance and Responsible AI Leadership | 5/5 | 13/13 | ![done](assets/readme/badges/status-domain-3.svg) |
 | 4 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-4.svg) |
 
 
@@ -53,10 +53,8 @@ The course transcripts and slides stay on my machine: they belong to the course 
 **Weak spots under review** (logged in Spanish, as studied):
 
 - Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
-- Cost ownership: con iniciativas ya probadas y costo sin dueño, eligió agrandar el pozo central y confundió la opción "proven → equipo que se beneficia" con "cobrar desde el día uno". Repasar: experiments → central AI budget, proven → cost center del equipo, por uso.
-- Tareas del dominio 3: puso governance body + risk classes en "Enterprise AI risks". Repasar el orden: principios (responsible AI en decisiones) → estructuras (governance y compliance) → riesgos en producción (monitoring, bias, harmful content, IP, reliability).
 
-<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-08.</sub>
+<sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-09.</sub>
 <!-- progress:end -->
 
 ## License
