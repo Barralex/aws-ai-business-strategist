@@ -80,7 +80,7 @@ Próximo: lección 55 (sección 6, Domain 4), título a confirmar
 
 ## Puntos flojos
 
-- Obligaciones con AI: eligió volver a lo manual y después que la regla de AI pisa la sectorial. Repasar: las obligaciones siguen al proceso; AI = reglas del sector + data protection + requisitos de AI encima, nunca resta.
+Ninguno abierto.
 
 ## Simulacros
 
@@ -144,3 +144,4 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) e
 - 2026-11-09: lección 52, 3/3 (Responsible AI Lens = preguntas de diseño, no monitorea; Bedrock Guardrails = filtros de input/output, temas, masking, anti-subversión, contextual grounding contra hallucinations; Clarify = bias en datos y outputs + explainability por predicción; Model Monitor = producción vs training baseline, alerta drift, bias drift y data quality; Shared Responsibility: AWS of the cloud, vos in the cloud; managed reduce configuración, nunca responsabilidad).
 - 2026-11-10: lección 53, 2/2 (Domain 4: ¿el pilot que funcionó se puede llevar a toda la empresa?; 4 tareas: readiness and maturity, data and infrastructure, change and skills, pilot to enterprise; CozyCo ticket routing: 86% bien ruteado, resolución de 3,1 a 1,5 días; otra herramienta con otro número de orden = data silo, reconciliar antes del rollout; head of support no consultado y miedo a despidos = sponsor, comunicación de roles, champions).
 - 2026-11-10: lección 54, 2/2 (maturity = dónde estás hoy: envision, experiment, launch, scale; readiness = 5 dimensiones: leadership alignment, data quality, cultural preparedness, technical infrastructure, governance framework; manda la dimensión más débil, no el promedio ni la mayoría; reportar el gap concreto, no "data bajo"; CozyCo en experiment con gaps en leadership, data y culture).
+- 2026-11-10: repaso 2/2 (obligaciones con AI: la norma sigue a la decisión, AI suma explicación, human review y evidencia, nunca resta). Punto flojo resuelto.
