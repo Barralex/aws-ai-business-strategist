@@ -25,7 +25,6 @@ das el término y una línea de qué significa.
 4. Con el transcript:
    - Guardalo tal cual en `lessons/NN-titulo-en-kebab-case.md`.
    - Explicá la lección en 5 a 10 líneas y marcá lo que cae en el examen.
-   - Bajalo a tierra con un ejemplo de su trabajo real: un cliente pyme, una campaña, un sitio.
    - Hacé 2 o 3 preguntas estilo examen (escenario de negocio, opción múltiple), de a una,
      esperando su respuesta.
    - Corregí: por qué la correcta es correcta y por qué las otras fallan.
