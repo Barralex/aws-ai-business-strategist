@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 53 (sección 5, Domain 3), título a confirmar
+Próximo: lección 55 (sección 6, Domain 4), título a confirmar
 
 ## Temario
 
@@ -59,7 +59,7 @@ Próximo: lección 53 (sección 5, Domain 3), título a confirmar
 - Cuestionario 4: AI Strategy and Business Value Creation Quiz (hecho en Udemy)
 - Role play 2: The Ticket Routing Business Case (hecho en Udemy)
 
-### Sección 5: Domain 3: AI Governance and Responsible AI Leadership
+### Sección 5: Domain 3: AI Governance and Responsible AI Leadership (13 lecciones)
 - [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
 - [x] 41. Responsible AI (3/3)
 - [x] 42. Responsible AI Tradeoffs (2/2)
@@ -74,13 +74,17 @@ Próximo: lección 53 (sección 5, Domain 3), título a confirmar
 - [x] 51. Hallucination, Degradation and Drift (3/3)
 - [x] 52. AWS Services for Domain 3 (3/3)
 
+### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation
+- [x] 53. Domain 4 Overview and CozyCo Ticket Routing (2/2)
+- [x] 54. Maturity and Readiness (2/2)
+
 ## Puntos flojos
 
 - Obligaciones con AI: eligió volver a lo manual y después que la regla de AI pisa la sectorial. Repasar: las obligaciones siguen al proceso; AI = reglas del sector + data protection + requisitos de AI encima, nunca resta.
 
 ## Simulacros
 
-Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y el del dominio 2 (se pasó directo al dominio 3).
+Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) el del dominio 2 (se pasó directo al dominio 3) y el del dominio 3 (se pasó directo al dominio 4).
 
 ## Registro
 
@@ -138,3 +142,5 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-09: lección 50, 3/3 (harmful content: control en el borde, filtrar input y output, denegar temas, rechazar pedidos, enmascarar; solo empleados no es control; la seguridad del output es de la empresa, no del proveedor; IP en los dos sentidos: pegar algo confidencial ya es fuga y no se revierte, el output no es tuyo y puede reproducir texto protegido; reglas de qué dato va a qué herramienta, términos antes de aprobar, registro, legal review si se publica o vende).
 - 2026-11-09: lección 51, 3/3 (forma en el tiempo: hallucination = pozo aislado, un caso seguro sin fuente → RAG/grounding; degradation = caída brusca que no vuelve, cambió el input upstream → arreglar la fuente, retrain sobre inputs rotos enseña lo roto; model drift = bajada lenta en muchos outputs → monitorear contra baseline y retrain con datos recientes; bias drift = un grupo baja; retrain solo cura el drift; pidió casos concretos en cada dibujo).
 - 2026-11-09: lección 52, 3/3 (Responsible AI Lens = preguntas de diseño, no monitorea; Bedrock Guardrails = filtros de input/output, temas, masking, anti-subversión, contextual grounding contra hallucinations; Clarify = bias en datos y outputs + explainability por predicción; Model Monitor = producción vs training baseline, alerta drift, bias drift y data quality; Shared Responsibility: AWS of the cloud, vos in the cloud; managed reduce configuración, nunca responsabilidad).
+- 2026-11-10: lección 53, 2/2 (Domain 4: ¿el pilot que funcionó se puede llevar a toda la empresa?; 4 tareas: readiness and maturity, data and infrastructure, change and skills, pilot to enterprise; CozyCo ticket routing: 86% bien ruteado, resolución de 3,1 a 1,5 días; otra herramienta con otro número de orden = data silo, reconciliar antes del rollout; head of support no consultado y miedo a despidos = sponsor, comunicación de roles, champions).
+- 2026-11-10: lección 54, 2/2 (maturity = dónde estás hoy: envision, experiment, launch, scale; readiness = 5 dimensiones: leadership alignment, data quality, cultural preparedness, technical infrastructure, governance framework; manda la dimensión más débil, no el promedio ni la mayoría; reportar el gap concreto, no "data bajo"; CozyCo en experiment con gaps en leadership, data y culture).
