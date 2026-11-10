@@ -3,10 +3,10 @@ window.DATA = {
   "updated": "2026-11-09",
   "started": "2026-11-06",
   "days": 4,
-  "lessonsDone": 43,
+  "lessonsDone": 45,
   "skipped": 2,
-  "right": 102,
-  "asked": 105,
+  "right": 108,
+  "asked": 111,
   "accuracy": 97,
   "domains": [
     {
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 7,
-      "total": 7,
-      "right": 15,
-      "asked": 16
+      "done": 9,
+      "total": 9,
+      "right": 21,
+      "asked": 22
     },
     {
       "number": 4,
@@ -45,6 +45,20 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 48,
+      "title": "Production Performance and Monitoring",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 47,
+      "title": "Access Control and Data Security",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 46,
       "title": "Regulatory Obligations",
@@ -62,20 +76,6 @@ window.DATA = {
     {
       "number": 43,
       "title": "Governance by Design and the Governance Body",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 42,
-      "title": "Responsible AI Tradeoffs",
-      "state": "done",
-      "right": 2,
-      "asked": 2
-    },
-    {
-      "number": 41,
-      "title": "Responsible AI",
       "state": "done",
       "right": 3,
       "asked": 3

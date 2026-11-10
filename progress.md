@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 47 (sección 5, Domain 3), título a confirmar
+Próximo: lección 49 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -67,6 +67,8 @@ Próximo: lección 47 (sección 5, Domain 3), título a confirmar
 - [x] 44. Human Oversight (3/3)
 - [x] 45. Risk Classification (sin preguntas)
 - [x] 46. Regulatory Obligations (2/3)
+- [x] 47. Access Control and Data Security (3/3)
+- [x] 48. Production Performance and Monitoring (3/3)
 
 ## Puntos flojos
 
@@ -126,3 +128,5 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-09: repaso 2/2 (baseline creíble: período no comparable por estacionalidad; misma medición, timer del asistente vs llamada completa). Punto flojo resuelto.
 - 2026-11-09: lección 45 vista en Udemy (risk classification matrix), sin transcript ni preguntas.
 - 2026-11-09: lección 46, 2/3 (las obligaciones siguen al proceso, no al modelo; AI suma requisitos, nunca resta; identify → map → evidence; evidencia logueada desde el día uno, reconstruirla en auditoría es caro o imposible; falló la 1: eligió volver a lo manual y después que AI pisa la regla sectorial).
+- 2026-11-09: lección 47, 3/3 (least privilege para el usuario y para el asistente como sistema; encryption at rest e in transit, por defecto en servicios managed como Bedrock; masking de PII con Bedrock Guardrails si la tarea no lo necesita; access logging: quién, qué documento, qué decisión, aprobado o no).
+- 2026-11-09: lección 48, 3/3 (AI no tira errores, baja la calidad en silencio; el business case financia build y monitoreo con owner; control = medida + threshold + owner con nombre, continuo; dashboard sin dueño o política sin medición no son control; 4 señales: inputs vs baseline → retrain, calidad vs known answers → modelo/prompt/datos, groups → datos o threshold, escalation rate → feed upstream).
