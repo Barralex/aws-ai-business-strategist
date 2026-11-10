@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-09",
   "started": "2026-11-06",
   "days": 4,
-  "lessonsDone": 46,
+  "lessonsDone": 48,
   "skipped": 2,
-  "right": 111,
-  "asked": 114,
-  "accuracy": 97,
+  "right": 117,
+  "asked": 120,
+  "accuracy": 98,
   "domains": [
     {
       "number": 1,
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 10,
-      "total": 10,
-      "right": 24,
-      "asked": 25
+      "done": 12,
+      "total": 12,
+      "right": 30,
+      "asked": 31
     },
     {
       "number": 4,
@@ -45,6 +45,20 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 51,
+      "title": "Hallucination, Degradation and Drift",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 50,
+      "title": "Harmful Content and Intellectual Property",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 49,
       "title": "Bias Deep Dive",
@@ -62,20 +76,6 @@ window.DATA = {
     {
       "number": 47,
       "title": "Access Control and Data Security",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 46,
-      "title": "Regulatory Obligations",
-      "state": "done",
-      "right": 2,
-      "asked": 3
-    },
-    {
-      "number": 44,
-      "title": "Human Oversight",
       "state": "done",
       "right": 3,
       "asked": 3
