@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 52 (sección 5, Domain 3), título a confirmar
+Próximo: lección 53 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -72,6 +72,7 @@ Próximo: lección 52 (sección 5, Domain 3), título a confirmar
 - [x] 49. Bias Deep Dive (3/3)
 - [x] 50. Harmful Content and Intellectual Property (3/3)
 - [x] 51. Hallucination, Degradation and Drift (3/3)
+- [x] 52. AWS Services for Domain 3 (3/3)
 
 ## Puntos flojos
 
@@ -136,3 +137,4 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-09: lección 49, 3/3 (4 etapas del bias y su fix: framing → target que mida el outcome, data → representar todos los grupos y refrescar, evaluation → medir por grupo, production use → monitorear también la decisión humana; bias drift: el modelo genera sus propios datos de entrenamiento, el fix no es reentrenar sino monitoreo por grupo con threshold y owner + muestra al azar de rechazados; pidió dibujos para bajar a tierra cómo se aplica el monitoreo).
 - 2026-11-09: lección 50, 3/3 (harmful content: control en el borde, filtrar input y output, denegar temas, rechazar pedidos, enmascarar; solo empleados no es control; la seguridad del output es de la empresa, no del proveedor; IP en los dos sentidos: pegar algo confidencial ya es fuga y no se revierte, el output no es tuyo y puede reproducir texto protegido; reglas de qué dato va a qué herramienta, términos antes de aprobar, registro, legal review si se publica o vende).
 - 2026-11-09: lección 51, 3/3 (forma en el tiempo: hallucination = pozo aislado, un caso seguro sin fuente → RAG/grounding; degradation = caída brusca que no vuelve, cambió el input upstream → arreglar la fuente, retrain sobre inputs rotos enseña lo roto; model drift = bajada lenta en muchos outputs → monitorear contra baseline y retrain con datos recientes; bias drift = un grupo baja; retrain solo cura el drift; pidió casos concretos en cada dibujo).
+- 2026-11-09: lección 52, 3/3 (Responsible AI Lens = preguntas de diseño, no monitorea; Bedrock Guardrails = filtros de input/output, temas, masking, anti-subversión, contextual grounding contra hallucinations; Clarify = bias en datos y outputs + explainability por predicción; Model Monitor = producción vs training baseline, alerta drift, bias drift y data quality; Shared Responsibility: AWS of the cloud, vos in the cloud; managed reduce configuración, nunca responsabilidad).

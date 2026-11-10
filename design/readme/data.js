@@ -3,10 +3,10 @@ window.DATA = {
   "updated": "2026-11-09",
   "started": "2026-11-06",
   "days": 4,
-  "lessonsDone": 48,
+  "lessonsDone": 49,
   "skipped": 2,
-  "right": 117,
-  "asked": 120,
+  "right": 120,
+  "asked": 123,
   "accuracy": 98,
   "domains": [
     {
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 12,
-      "total": 12,
-      "right": 30,
-      "asked": 31
+      "done": 13,
+      "total": 13,
+      "right": 33,
+      "asked": 34
     },
     {
       "number": 4,
@@ -45,6 +45,13 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 52,
+      "title": "AWS Services for Domain 3",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 51,
       "title": "Hallucination, Degradation and Drift",
@@ -69,13 +76,6 @@ window.DATA = {
     {
       "number": 48,
       "title": "Production Performance and Monitoring",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 47,
-      "title": "Access Control and Data Security",
       "state": "done",
       "right": 3,
       "asked": 3
