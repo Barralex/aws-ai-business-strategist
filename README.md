@@ -45,7 +45,7 @@ The course transcripts and slides stay on my machine: they belong to the course 
 |---|---|---|---|---|
 | 1 | AI Fundamentals and Literacy | 23/23 | 54/54 | ![done](assets/readme/badges/status-domain-1.svg) |
 | 2 | AI Strategy and Business Value Creation | 18/18 | 33/35 | ![done](assets/readme/badges/status-domain-2.svg) |
-| 3 | AI Governance and Responsible AI Leadership | 9/9 | 21/22 | ![done](assets/readme/badges/status-domain-3.svg) |
+| 3 | AI Governance and Responsible AI Leadership | 10/10 | 24/25 | ![done](assets/readme/badges/status-domain-3.svg) |
 | 4 | _not reached yet_ | – | – | ![not started](assets/readme/badges/status-domain-4.svg) |
 
 

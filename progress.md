@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 49 (sección 5, Domain 3), título a confirmar
+Próximo: lección 50 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -69,6 +69,7 @@ Próximo: lección 49 (sección 5, Domain 3), título a confirmar
 - [x] 46. Regulatory Obligations (2/3)
 - [x] 47. Access Control and Data Security (3/3)
 - [x] 48. Production Performance and Monitoring (3/3)
+- [x] 49. Bias Deep Dive (3/3)
 
 ## Puntos flojos
 
@@ -130,3 +131,4 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-09: lección 46, 2/3 (las obligaciones siguen al proceso, no al modelo; AI suma requisitos, nunca resta; identify → map → evidence; evidencia logueada desde el día uno, reconstruirla en auditoría es caro o imposible; falló la 1: eligió volver a lo manual y después que AI pisa la regla sectorial).
 - 2026-11-09: lección 47, 3/3 (least privilege para el usuario y para el asistente como sistema; encryption at rest e in transit, por defecto en servicios managed como Bedrock; masking de PII con Bedrock Guardrails si la tarea no lo necesita; access logging: quién, qué documento, qué decisión, aprobado o no).
 - 2026-11-09: lección 48, 3/3 (AI no tira errores, baja la calidad en silencio; el business case financia build y monitoreo con owner; control = medida + threshold + owner con nombre, continuo; dashboard sin dueño o política sin medición no son control; 4 señales: inputs vs baseline → retrain, calidad vs known answers → modelo/prompt/datos, groups → datos o threshold, escalation rate → feed upstream).
+- 2026-11-09: lección 49, 3/3 (4 etapas del bias y su fix: framing → target que mida el outcome, data → representar todos los grupos y refrescar, evaluation → medir por grupo, production use → monitorear también la decisión humana; bias drift: el modelo genera sus propios datos de entrenamiento, el fix no es reentrenar sino monitoreo por grupo con threshold y owner + muestra al azar de rechazados; pidió dibujos para bajar a tierra cómo se aplica el monitoreo).

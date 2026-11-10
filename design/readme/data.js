@@ -3,10 +3,10 @@ window.DATA = {
   "updated": "2026-11-09",
   "started": "2026-11-06",
   "days": 4,
-  "lessonsDone": 45,
+  "lessonsDone": 46,
   "skipped": 2,
-  "right": 108,
-  "asked": 111,
+  "right": 111,
+  "asked": 114,
   "accuracy": 97,
   "domains": [
     {
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 9,
-      "total": 9,
-      "right": 21,
-      "asked": 22
+      "done": 10,
+      "total": 10,
+      "right": 24,
+      "asked": 25
     },
     {
       "number": 4,
@@ -45,6 +45,13 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 49,
+      "title": "Bias Deep Dive",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
     {
       "number": 48,
       "title": "Production Performance and Monitoring",
@@ -69,13 +76,6 @@ window.DATA = {
     {
       "number": 44,
       "title": "Human Oversight",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 43,
-      "title": "Governance by Design and the Governance Body",
       "state": "done",
       "right": 3,
       "asked": 3
