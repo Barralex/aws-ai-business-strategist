@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 45 (sección 5, Domain 3), título a confirmar
+Próximo: lección 47 (sección 5, Domain 3), título a confirmar
 
 ## Temario
 
@@ -65,10 +65,12 @@ Próximo: lección 45 (sección 5, Domain 3), título a confirmar
 - [x] 42. Responsible AI Tradeoffs (2/2)
 - [x] 43. Governance by Design and the Governance Body (3/3)
 - [x] 44. Human Oversight (3/3)
+- [x] 45. Risk Classification (sin preguntas)
+- [x] 46. Regulatory Obligations (2/3)
 
 ## Puntos flojos
 
-- Baseline creíble: confundió "mismo método" con "mismos datos" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable).
+- Obligaciones con AI: eligió volver a lo manual y después que la regla de AI pisa la sectorial. Repasar: las obligaciones siguen al proceso; AI = reglas del sector + data protection + requisitos de AI encima, nunca resta.
 
 ## Simulacros
 
@@ -121,3 +123,6 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) y
 - 2026-11-09: lección 43, 3/3 (governance by design: data, autonomy y explanation se deciden en el plan; touchpoints por etapa, el go-live gate atrapa pero no rediseña, reassess si cambia el uso; body = business, technical, legal/compliance, risk + un owner por sistema que aprueba o frena; CoE que aprueba todo, cada BU por su lado y deploy first no son governance).
 - 2026-11-09: repaso 2/2 (orden de las tareas del dominio 3: principios → estructuras → riesgos en producción; cost ownership: proven → cost center del equipo por uso, experiments → central AI budget), ambos resueltos.
 - 2026-11-09: lección 44, 3/3 (AI sola si hay poco en juego y es reversible; HITL si toca derechos, salud, seguridad, plata o acceso, es difícil de revertir, está regulado o la confidence no es confiable; 5 disparadores: confidence threshold, hallucination, guardrail, escalation criteria, audit trail; confidence-based routing gana a revisar todo, muestrear después o un disclaimer).
+- 2026-11-09: repaso 2/2 (baseline creíble: período no comparable por estacionalidad; misma medición, timer del asistente vs llamada completa). Punto flojo resuelto.
+- 2026-11-09: lección 45 vista en Udemy (risk classification matrix), sin transcript ni preguntas.
+- 2026-11-09: lección 46, 2/3 (las obligaciones siguen al proceso, no al modelo; AI suma requisitos, nunca resta; identify → map → evidence; evidencia logueada desde el día uno, reconstruirla en auditoría es caro o imposible; falló la 1: eligió volver a lo manual y después que AI pisa la regla sectorial).

@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-09",
   "started": "2026-11-06",
   "days": 4,
-  "lessonsDone": 41,
+  "lessonsDone": 43,
   "skipped": 2,
-  "right": 100,
-  "asked": 102,
-  "accuracy": 98,
+  "right": 102,
+  "asked": 105,
+  "accuracy": 97,
   "domains": [
     {
       "number": 1,
@@ -28,10 +28,10 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 5,
-      "total": 5,
-      "right": 13,
-      "asked": 13
+      "done": 7,
+      "total": 7,
+      "right": 15,
+      "asked": 16
     },
     {
       "number": 4,
@@ -45,6 +45,13 @@ window.DATA = {
   "current": 1,
   "next": null,
   "recent": [
+    {
+      "number": 46,
+      "title": "Regulatory Obligations",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
     {
       "number": 44,
       "title": "Human Oversight",
@@ -72,17 +79,10 @@ window.DATA = {
       "state": "done",
       "right": 3,
       "asked": 3
-    },
-    {
-      "number": 40,
-      "title": "Domain 3 Overview and CozyCo PayLater",
-      "state": "done",
-      "right": 2,
-      "asked": 2
     }
   ],
   "weak": [
-    "Baseline creíble: confundió \"mismo método\" con \"mismos datos\" y no detectó períodos no comparables (enero vs Black Friday) como lo que debilita un antes/después. Repasar los 3 chequeos (registrado antes, misma medición, período comparable)."
+    "Obligaciones con AI: eligió volver a lo manual y después que la regla de AI pisa la sectorial. Repasar: las obligaciones siguen al proceso; AI = reglas del sector + data protection + requisitos de AI encima, nunca resta."
   ],
   "mocks": []
 };
