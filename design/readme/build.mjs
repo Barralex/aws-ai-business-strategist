@@ -102,12 +102,13 @@ function parse(md) {
       done:
         s.lessons.filter((l) => l.state === 'done').length + s.extras.filter((e) => e.done).length,
       total: s.total ?? s.lessons.length + s.extras.length,
+      open: s.total == null, // no total in the heading yet: the domain is still being studied
       right: sc.reduce((n, l) => n + l.right, 0),
       asked: sc.reduce((n, l) => n + l.asked, 0),
     };
   });
 
-  const current = domains.find((d) => d.total && d.done < d.total) ?? domains[0];
+  const current = domains.find((d) => d.done && (d.open || d.done < d.total)) ?? domains[0];
   const next = md.match(/^Próxima lección: (.+)$/m)?.[1]?.trim() ?? null;
   const dates = log.map((l) => l.match(/^(\d{4}-\d{2}-\d{2})/)?.[1]).filter(Boolean);
 
@@ -173,7 +174,7 @@ function badgesBlock(d) {
   const cur = d.domains[d.current - 1];
   return [
     `[![Exam](${badge('exam', 'exam', 'AIB-C01', '1B2440')})](#the-brief)`,
-    `[![Domain](${badge('domain', `domain ${cur.number}`, `${cur.done}/${cur.total ?? '?'} lessons`, 'E0A13A')})](#progress)`,
+    `[![Domain](${badge('domain', `domain ${cur.number}`, `${cur.done}/${cur.open ? '?' : cur.total ?? '?'} lessons`, 'E0A13A')})](#progress)`,
     `[![Accuracy](${badge('accuracy', 'exam-style accuracy', `${acc}% (${d.right}/${d.asked})`, accColor)})](#progress)`,
     `[![Mocks](${badge('mocks', 'mock exams', `${d.mocks.length}/${DOMAINS}`, '5F6073')})](#progress)`,
     `[![License](${badge('license', 'license', 'proprietary', '4A4E6D')})](LICENSE)`,
@@ -187,9 +188,9 @@ function progressBlock(d) {
     const slot = `status-domain-${dom.number}`;
     let status;
     if (!dom.total || dom.done === 0) status = pill(slot, 'not started', '5F6073');
-    else if (dom.done >= dom.total) status = pill(slot, 'done', '2E9E83');
+    else if (!dom.open && dom.done >= dom.total) status = pill(slot, 'done', '2E9E83');
     else status = pill(slot, 'in progress', 'E0A13A');
-    const lessons = dom.total ? `${dom.done}/${dom.total}` : '–';
+    const lessons = dom.total ? `${dom.done}/${dom.open ? '?' : dom.total}` : '–';
     const score = dom.asked ? `${dom.right}/${dom.asked}` : '–';
     return `| ${dom.number} | ${name} | ${lessons} | ${score} | ${status} |`;
   });

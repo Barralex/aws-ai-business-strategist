@@ -14,6 +14,7 @@ window.DATA = {
       "title": "AI Fundamentals and Literacy",
       "done": 23,
       "total": 23,
+      "open": false,
       "right": 54,
       "asked": 54
     },
@@ -22,6 +23,7 @@ window.DATA = {
       "title": "AI Strategy and Business Value Creation",
       "done": 18,
       "total": 18,
+      "open": false,
       "right": 33,
       "asked": 35
     },
@@ -30,6 +32,7 @@ window.DATA = {
       "title": "AI Governance and Responsible AI Leadership",
       "done": 13,
       "total": 13,
+      "open": false,
       "right": 33,
       "asked": 34
     },
@@ -38,11 +41,12 @@ window.DATA = {
       "title": "Business Readiness, Leadership and AI Transformation",
       "done": 6,
       "total": 6,
+      "open": true,
       "right": 15,
       "asked": 16
     }
   ],
-  "current": 1,
+  "current": 4,
   "next": null,
   "recent": [
     {
