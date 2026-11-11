@@ -31,7 +31,7 @@ window.DATA = {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
       "done": 17,
-      "total": 14,
+      "total": 17,
       "open": false,
       "right": 33,
       "asked": 34
@@ -40,7 +40,7 @@ window.DATA = {
       "number": 4,
       "title": "Business Readiness, Leadership and AI Transformation",
       "done": 15,
-      "total": 12,
+      "total": 15,
       "open": false,
       "right": 30,
       "asked": 33

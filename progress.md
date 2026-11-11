@@ -59,7 +59,7 @@ Próximo: curso terminado. Siguiente etapa: simulacros cíclicos contra un basel
 - Cuestionario 4: AI Strategy and Business Value Creation Quiz (hecho en Udemy)
 - Role play 2: The Ticket Routing Business Case (hecho en Udemy)
 
-### Sección 5: Domain 3: AI Governance and Responsible AI Leadership (14 lecciones, 1 role play)
+### Sección 5: Domain 3: AI Governance and Responsible AI Leadership (17 lecciones, 1 role play)
 - [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
 - [x] 41. Responsible AI (3/3)
 - [x] 42. Responsible AI Tradeoffs (2/2)
@@ -78,7 +78,7 @@ Próximo: curso terminado. Siguiente etapa: simulacros cíclicos contra un basel
 - Cuestionario 6: AI Governance and Responsible AI Leadership Quiz (hecho en Udemy)
 - Role play 3: Domain 3 (hecho en Udemy)
 
-### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation (12 lecciones, 1 role play)
+### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation (15 lecciones, 1 role play)
 - [x] 54. Domain 4 Overview and CozyCo's Pilot (2/2)
 - [x] 55. Maturity and Readiness (2/2)
 - [x] 56. Capability Gaps and Investment Priorities (2/3)
