@@ -40,8 +40,8 @@ window.DATA = {
       "number": 4,
       "title": "Business Readiness, Leadership and AI Transformation",
       "done": 6,
-      "total": 6,
-      "open": true,
+      "total": 12,
+      "open": false,
       "right": 15,
       "asked": 16
     }
@@ -50,35 +50,35 @@ window.DATA = {
   "next": null,
   "recent": [
     {
+      "number": 59,
+      "title": "Sponsors, Aligned Leaders, Champions and the Building Team",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
       "number": 58,
-      "title": "Sponsor, Leaders, Champions and the Build Team",
+      "title": "Infrastructure Readiness",
       "state": "done",
       "right": 3,
       "asked": 3
     },
     {
       "number": 57,
-      "title": "Technology and Infrastructure Foundations",
+      "title": "The Data Foundation",
       "state": "done",
       "right": 3,
       "asked": 3
     },
     {
       "number": 56,
-      "title": "Data Readiness and Data Silos",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 55,
-      "title": "Readiness Gaps and Investment Priorities",
+      "title": "Capability Gaps and Investment Priorities",
       "state": "done",
       "right": 2,
       "asked": 3
     },
     {
-      "number": 54,
+      "number": 55,
       "title": "Maturity and Readiness",
       "state": "done",
       "right": 2,

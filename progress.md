@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 59 (sección 6, Domain 4), título a confirmar
+Próximo: lección 60 (sección 6, Domain 4): Communication and Cultural Barriers
 
 ## Temario
 
@@ -74,13 +74,22 @@ Próximo: lección 59 (sección 6, Domain 4), título a confirmar
 - [x] 51. Hallucination, Degradation and Drift (3/3)
 - [x] 52. AWS Services for Domain 3 (3/3)
 
-### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation
-- [x] 53. Domain 4 Overview and CozyCo Ticket Routing (2/2)
-- [x] 54. Maturity and Readiness (2/2)
-- [x] 55. Readiness Gaps and Investment Priorities (2/3)
-- [x] 56. Data Readiness and Data Silos (3/3)
-- [x] 57. Technology and Infrastructure Foundations (3/3)
-- [x] 58. Sponsor, Leaders, Champions and the Build Team (3/3)
+### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation (12 lecciones, 1 role play)
+- [x] 54. Domain 4 Overview and CozyCo's Pilot (2/2)
+- [x] 55. Maturity and Readiness (2/2)
+- [x] 56. Capability Gaps and Investment Priorities (2/3)
+- [x] 57. The Data Foundation (3/3)
+- [x] 58. Infrastructure Readiness (3/3)
+- [x] 59. Sponsors, Aligned Leaders, Champions and the Building Team (3/3)
+- [ ] 60. Communication and Cultural Barriers
+- [ ] 61. Building AI Skills and Redesigning Roles
+- [ ] 62. From Pilot to Enterprise: Phases, Short-Term Wins, the CoE, Metrics
+- [ ] 63. Production Grade, and Scaling in Stages
+- [ ] 64. AWS Services and Frameworks for Domain 4
+- [ ] 65. Domain 4 Wrap-up: CozyCo Routing, Pilot to Company
+- Cuestionario 7: AWS Services Quiz: Domain 4
+- Cuestionario 8: Business Readiness, Leadership, and AI Transformation Quiz
+- Role play 4: Scaling Ticket Routing Beyond Team 1
 
 ## Puntos flojos
 
@@ -146,10 +155,10 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) e
 - 2026-11-09: lección 50, 3/3 (harmful content: control en el borde, filtrar input y output, denegar temas, rechazar pedidos, enmascarar; solo empleados no es control; la seguridad del output es de la empresa, no del proveedor; IP en los dos sentidos: pegar algo confidencial ya es fuga y no se revierte, el output no es tuyo y puede reproducir texto protegido; reglas de qué dato va a qué herramienta, términos antes de aprobar, registro, legal review si se publica o vende).
 - 2026-11-09: lección 51, 3/3 (forma en el tiempo: hallucination = pozo aislado, un caso seguro sin fuente → RAG/grounding; degradation = caída brusca que no vuelve, cambió el input upstream → arreglar la fuente, retrain sobre inputs rotos enseña lo roto; model drift = bajada lenta en muchos outputs → monitorear contra baseline y retrain con datos recientes; bias drift = un grupo baja; retrain solo cura el drift; pidió casos concretos en cada dibujo).
 - 2026-11-09: lección 52, 3/3 (Responsible AI Lens = preguntas de diseño, no monitorea; Bedrock Guardrails = filtros de input/output, temas, masking, anti-subversión, contextual grounding contra hallucinations; Clarify = bias en datos y outputs + explainability por predicción; Model Monitor = producción vs training baseline, alerta drift, bias drift y data quality; Shared Responsibility: AWS of the cloud, vos in the cloud; managed reduce configuración, nunca responsabilidad).
-- 2026-11-10: lección 53, 2/2 (Domain 4: ¿el pilot que funcionó se puede llevar a toda la empresa?; 4 tareas: readiness and maturity, data and infrastructure, change and skills, pilot to enterprise; CozyCo ticket routing: 86% bien ruteado, resolución de 3,1 a 1,5 días; otra herramienta con otro número de orden = data silo, reconciliar antes del rollout; head of support no consultado y miedo a despidos = sponsor, comunicación de roles, champions).
-- 2026-11-10: lección 54, 2/2 (maturity = dónde estás hoy: envision, experiment, launch, scale; readiness = 5 dimensiones: leadership alignment, data quality, cultural preparedness, technical infrastructure, governance framework; manda la dimensión más débil, no el promedio ni la mayoría; reportar el gap concreto, no "data bajo"; CozyCo en experiment con gaps en leadership, data y culture).
+- 2026-11-10: lección 54, 2/2 (Domain 4: ¿el pilot que funcionó se puede llevar a toda la empresa?; 4 tareas: readiness and maturity, data and infrastructure, change and skills, pilot to enterprise; CozyCo ticket routing: 86% bien ruteado, resolución de 3,1 a 1,5 días; otra herramienta con otro número de orden = data silo, reconciliar antes del rollout; head of support no consultado y miedo a despidos = sponsor, comunicación de roles, champions).
+- 2026-11-10: lección 55, 2/2 (maturity = dónde estás hoy: envision, experiment, launch, scale; readiness = 5 dimensiones: leadership alignment, data quality, cultural preparedness, technical infrastructure, governance framework; manda la dimensión más débil, no el promedio ni la mayoría; reportar el gap concreto, no "data bajo"; CozyCo en experiment con gaps en leadership, data y culture).
 - 2026-11-10: repaso 2/2 (obligaciones con AI: la norma sigue a la decisión, AI suma explicación, human review y evidencia, nunca resta). Punto flojo resuelto.
-- 2026-11-10: lección 55, 2/3 (4 gaps: people, process, technology, governance; prioridad: primero el que bloquea, casi siempre people; data quality pesa por su impacto aguas abajo; toda inversión sirve a un business outcome; no se saltean etapas, se recomienda la siguiente realista; falló la 2 con pista: eligió un punto medio entre experiment y scale).
-- 2026-11-10: lección 56, 3/3 (data readiness en 3 preguntas: quality → limpiar antes que nada, accessibility → abrir con access control, integration → alinear identificadores; data silo = datos que otros sistemas no alcanzan, mismo cliente con 3 IDs y 3 verdades; remedio = data strategy con owner por data domain y sharing framework; escalar, copiar o evitar los datos del otro equipo fallan).
-- 2026-11-10: lección 57, 3/3 (4 preguntas de infraestructura: capacity, data a tiempo, operate con monitoring y logging, scale sin rebuild; cloud-ready ≠ AI-ready: la capa de AI suma GPU compute, ML pipelines, experiment tracking, separar experimentos de producción y model monitoring).
-- 2026-11-10: lección 58, 3/3 (executive sponsor = objetivos atados al éxito, budget que sobrevive reprioridades, autoridad para disputas, su nombre; aligned leaders = consultados y de acuerdo antes de arrancar, si no bajan la prioridad; champions = muchos, respetados, adopción entre pares y reportan fallas, con tiempo, información y ruta para escalar; build team cross-functional desde el día uno con legal y compliance; un owner; el PM no es legal review).
+- 2026-11-10: lección 56, 2/3 (4 gaps: people, process, technology, governance; prioridad: primero el que bloquea, casi siempre people; data quality pesa por su impacto aguas abajo; toda inversión sirve a un business outcome; no se saltean etapas, se recomienda la siguiente realista; falló la 2 con pista: eligió un punto medio entre experiment y scale).
+- 2026-11-10: lección 57, 3/3 (data readiness en 3 preguntas: quality → limpiar antes que nada, accessibility → abrir con access control, integration → alinear identificadores; data silo = datos que otros sistemas no alcanzan, mismo cliente con 3 IDs y 3 verdades; remedio = data strategy con owner por data domain y sharing framework; escalar, copiar o evitar los datos del otro equipo fallan).
+- 2026-11-10: lección 58, 3/3 (4 preguntas de infraestructura: capacity, data a tiempo, operate con monitoring y logging, scale sin rebuild; cloud-ready ≠ AI-ready: la capa de AI suma GPU compute, ML pipelines, experiment tracking, separar experimentos de producción y model monitoring).
+- 2026-11-10: lección 59, 3/3 (executive sponsor = objetivos atados al éxito, budget que sobrevive reprioridades, autoridad para disputas, su nombre; aligned leaders = consultados y de acuerdo antes de arrancar, si no bajan la prioridad; champions = muchos, respetados, adopción entre pares y reportan fallas, con tiempo, información y ruta para escalar; build team cross-functional desde el día uno con legal y compliance; un owner; el PM no es legal review).
