@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-10",
   "started": "2026-11-06",
   "days": 5,
-  "lessonsDone": 55,
+  "lessonsDone": 62,
   "skipped": 2,
-  "right": 135,
-  "asked": 139,
-  "accuracy": 97,
+  "right": 150,
+  "asked": 156,
+  "accuracy": 96,
   "domains": [
     {
       "number": 1,
@@ -30,8 +30,8 @@ window.DATA = {
     {
       "number": 3,
       "title": "AI Governance and Responsible AI Leadership",
-      "done": 13,
-      "total": 13,
+      "done": 17,
+      "total": 14,
       "open": false,
       "right": 33,
       "asked": 34
@@ -39,54 +39,56 @@ window.DATA = {
     {
       "number": 4,
       "title": "Business Readiness, Leadership and AI Transformation",
-      "done": 6,
+      "done": 15,
       "total": 12,
       "open": false,
-      "right": 15,
-      "asked": 16
+      "right": 30,
+      "asked": 33
     }
   ],
-  "current": 4,
+  "current": 1,
   "next": null,
   "recent": [
     {
-      "number": 59,
-      "title": "Sponsors, Aligned Leaders, Champions and the Building Team",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 58,
-      "title": "Infrastructure Readiness",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 57,
-      "title": "The Data Foundation",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 56,
-      "title": "Capability Gaps and Investment Priorities",
-      "state": "done",
-      "right": 2,
-      "asked": 3
-    },
-    {
-      "number": 55,
-      "title": "Maturity and Readiness",
+      "number": 65,
+      "title": "Domain 4 Wrap-up: CozyCo Routing, Pilot to Company",
       "state": "done",
       "right": 2,
       "asked": 2
+    },
+    {
+      "number": 64,
+      "title": "AWS Services and Frameworks for Domain 4",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
+    {
+      "number": 63,
+      "title": "Production Grade, and Scaling in Stages",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
+    {
+      "number": 62,
+      "title": "From Pilot to Enterprise: Phases, Short-Term Wins, the CoE, Metrics",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 61,
+      "title": "Building AI Skills and Redesigning Roles",
+      "state": "done",
+      "right": 3,
+      "asked": 3
     }
   ],
   "weak": [
-    "Etapas de madurez: eligió desplegar en la mitad de las áreas como punto medio entre experiment y scale. Repasar: una etapa por vez, después de experiment viene launch (un piloto en producción en un área), recién después scale."
+    "Etapas de madurez: eligió desplegar en la mitad de las áreas como punto medio entre experiment y scale. Repasar: una etapa por vez, después de experiment viene launch (un piloto en producción en un área), recién después scale.",
+    "Production readiness: confundió funding con operations. Repasar: las 4 piezas son governance, operations (quién monitorea y mantiene), reliability at volume y funding (pagar el run y el mantenimiento, no solo el build).",
+    "Servicios de datos de AWS: no ubicó DataZone como sharing framework entre equipos (eligió Well-Architected y después Lake Formation). Repasar: Lake Formation = permisos y catálogo del data lake, DataZone = compartir datos entre equipos contra los silos, Glue = pipelines."
   ],
   "mocks": []
 };

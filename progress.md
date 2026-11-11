@@ -2,7 +2,7 @@
 
 ## Dónde estoy
 
-Próximo: lección 60 (sección 6, Domain 4): Communication and Cultural Barriers
+Próximo: curso terminado. Siguiente etapa: simulacros cíclicos contra un baseline (a definir).
 
 ## Temario
 
@@ -59,7 +59,7 @@ Próximo: lección 60 (sección 6, Domain 4): Communication and Cultural Barrier
 - Cuestionario 4: AI Strategy and Business Value Creation Quiz (hecho en Udemy)
 - Role play 2: The Ticket Routing Business Case (hecho en Udemy)
 
-### Sección 5: Domain 3: AI Governance and Responsible AI Leadership (13 lecciones)
+### Sección 5: Domain 3: AI Governance and Responsible AI Leadership (14 lecciones, 1 role play)
 - [x] 40. Domain 3 Overview and CozyCo PayLater (2/2, 1/2 al primer intento)
 - [x] 41. Responsible AI (3/3)
 - [x] 42. Responsible AI Tradeoffs (2/2)
@@ -73,6 +73,10 @@ Próximo: lección 60 (sección 6, Domain 4): Communication and Cultural Barrier
 - [x] 50. Harmful Content and Intellectual Property (3/3)
 - [x] 51. Hallucination, Degradation and Drift (3/3)
 - [x] 52. AWS Services for Domain 3 (3/3)
+- [x] 53. Domain 3 Wrap-up (vista en Udemy, sin transcript ni preguntas; título a confirmar)
+- Cuestionario 5: AWS Services Quiz: Domain 3 (hecho en Udemy)
+- Cuestionario 6: AI Governance and Responsible AI Leadership Quiz (hecho en Udemy)
+- Role play 3: Domain 3 (hecho en Udemy)
 
 ### Sección 6: Domain 4: Business Readiness, Leadership and AI Transformation (12 lecciones, 1 role play)
 - [x] 54. Domain 4 Overview and CozyCo's Pilot (2/2)
@@ -81,19 +85,21 @@ Próximo: lección 60 (sección 6, Domain 4): Communication and Cultural Barrier
 - [x] 57. The Data Foundation (3/3)
 - [x] 58. Infrastructure Readiness (3/3)
 - [x] 59. Sponsors, Aligned Leaders, Champions and the Building Team (3/3)
-- [ ] 60. Communication and Cultural Barriers
-- [ ] 61. Building AI Skills and Redesigning Roles
-- [ ] 62. From Pilot to Enterprise: Phases, Short-Term Wins, the CoE, Metrics
-- [ ] 63. Production Grade, and Scaling in Stages
-- [ ] 64. AWS Services and Frameworks for Domain 4
-- [ ] 65. Domain 4 Wrap-up: CozyCo Routing, Pilot to Company
-- Cuestionario 7: AWS Services Quiz: Domain 4
-- Cuestionario 8: Business Readiness, Leadership, and AI Transformation Quiz
-- Role play 4: Scaling Ticket Routing Beyond Team 1
+- [x] 60. Communication and Cultural Barriers (3/3)
+- [x] 61. Building AI Skills and Redesigning Roles (3/3)
+- [x] 62. From Pilot to Enterprise: Phases, Short-Term Wins, the CoE, Metrics (3/3)
+- [x] 63. Production Grade, and Scaling in Stages (2/3)
+- [x] 64. AWS Services and Frameworks for Domain 4 (2/3)
+- [x] 65. Domain 4 Wrap-up: CozyCo Routing, Pilot to Company (2/2)
+- Cuestionario 7: AWS Services Quiz: Domain 4 (hecho en Udemy)
+- Cuestionario 8: Business Readiness, Leadership, and AI Transformation Quiz (hecho en Udemy)
+- Role play 4: Scaling Ticket Routing Beyond Team 1 (hecho en Udemy)
 
 ## Puntos flojos
 
 - Etapas de madurez: eligió desplegar en la mitad de las áreas como punto medio entre experiment y scale. Repasar: una etapa por vez, después de experiment viene launch (un piloto en producción en un área), recién después scale.
+- Production readiness: confundió funding con operations. Repasar: las 4 piezas son governance, operations (quién monitorea y mantiene), reliability at volume y funding (pagar el run y el mantenimiento, no solo el build).
+- Servicios de datos de AWS: no ubicó DataZone como sharing framework entre equipos (eligió Well-Architected y después Lake Formation). Repasar: Lake Formation = permisos y catálogo del data lake, DataZone = compartir datos entre equipos contra los silos, Glue = pipelines.
 
 ## Simulacros
 
@@ -162,3 +168,10 @@ Ninguno todavía. Pendientes: el del dominio 1 (se pasó directo al dominio 2) e
 - 2026-11-10: lección 57, 3/3 (data readiness en 3 preguntas: quality → limpiar antes que nada, accessibility → abrir con access control, integration → alinear identificadores; data silo = datos que otros sistemas no alcanzan, mismo cliente con 3 IDs y 3 verdades; remedio = data strategy con owner por data domain y sharing framework; escalar, copiar o evitar los datos del otro equipo fallan).
 - 2026-11-10: lección 58, 3/3 (4 preguntas de infraestructura: capacity, data a tiempo, operate con monitoring y logging, scale sin rebuild; cloud-ready ≠ AI-ready: la capa de AI suma GPU compute, ML pipelines, experiment tracking, separar experimentos de producción y model monitoring).
 - 2026-11-10: lección 59, 3/3 (executive sponsor = objetivos atados al éxito, budget que sobrevive reprioridades, autoridad para disputas, su nombre; aligned leaders = consultados y de acuerdo antes de arrancar, si no bajan la prioridad; champions = muchos, respetados, adopción entre pares y reportan fallas, con tiempo, información y ruta para escalar; build team cross-functional desde el día uno con legal y compliance; un owner; el PM no es legal review).
+- 2026-11-10: lección 60, 3/3 (comunicar con timeline y fecha de próxima actualización, outcomes sin over ni under claim, roles definidos o decir que no lo están; 3 barreras: risk aversion → bajar lo que está en juego, el piloto tiene learning goal; resistance to change → participar en el diseño + champions locales; fear of failure → el liderazgo cubre, la accountability está arriba; CozyCo equipos 2 y 3: miedo al puesto = resistance). Pidió que le repita la lección más simple.
+- 2026-11-10: lección 61, 3/3 (formatos: proof of concept = evidencia con datos propios antes de comprometerse, hackathon = ideas, energía y vínculos rápido, training program = capability a escala por rol; responsible AI training para quien construye, aprueba o usa outputs; literacy para todos; cada programa con un lugar donde aplicarlo; orden: awareness primero si se arranca de cero con miedo; el puesto es un conjunto de actividades: humano (empatía, creatividad, criterio ético, relaciones), AI (volumen, patrones, reglas) o collaborative).
+- 2026-11-10: lección 62, 3/3 (fases con output que alimenta la siguiente: envision → use cases atados a outcomes, experiment → evidencia y descartes, launch → producción con governance, monitoring y soporte, scale → patrones reutilizables; short-term win chico pero representativo, sin governance más liviana; CoE = enable, don't deliver, no se arregla con más staff, bajando estándares ni disolviéndolo; métricas del programa: leading y lagging, no vanity metrics, feedback continuo de usuarios). Pidió repasar el CoE con un ejemplo.
+- 2026-11-10: lección 63, 2/3 (production readiness: governance, operations, reliability at volume, funding del run; observability en GenAI; continuity: fallback, rollback y paralelo antes de retirar el proceso viejo; costo a escala con human oversight, variación regional y regulatoria; roll out in stages and keep a way back; ni todos de golpe, ni reaccionar a quejas, ni esperar garantía; falló la 2 con pista: confundió funding con operations).
+- 2026-11-10: lección 64, 2/3 (CAF = readiness de toda la organización con 6 perspectivas, Platform y People clave, fases envision, align, launch, scale; Well-Architected GenAI Lens = revisión de un proyecto puntual; Prescriptive Guidance = recursos sin diagnóstico; Training and Certification = cerrar skill gap; Lake Formation = permisos y catálogo del data lake, DataZone = sharing entre equipos, Glue = pipelines; falló la 2 aun con pista).
+- 2026-11-10: lección 65, 2/2 (repaso del dominio 4 con CozyCo: de experiment a launch en 3 equipos; readiness más débil en culture y data; gaps de people y process; número de pedido en tickets de devolución con owner; head of support, champions, rediseño y comunicación del rol; owner, monitoring con thresholds, on-call y budget; mesa manual de fallback y leading indicators). Fin de las lecciones del dominio 4.
+- 2026-11-10: curso de Udemy terminado: los 4 dominios, cuestionarios 5 a 8 y role plays 3 y 4 hechos en Udemy. Siguiente etapa: simulacros cíclicos hasta superar un baseline.

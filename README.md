@@ -45,14 +45,16 @@ The course transcripts and slides stay on my machine: they belong to the course 
 |---|---|---|---|---|
 | 1 | AI Fundamentals and Literacy | 23/23 | 54/54 | ![done](assets/readme/badges/status-domain-1.svg) |
 | 2 | AI Strategy and Business Value Creation | 18/18 | 33/35 | ![done](assets/readme/badges/status-domain-2.svg) |
-| 3 | AI Governance and Responsible AI Leadership | 13/13 | 33/34 | ![done](assets/readme/badges/status-domain-3.svg) |
-| 4 | Business Readiness, Leadership and AI Transformation | 6/12 | 15/16 | ![in progress](assets/readme/badges/status-domain-4.svg) |
+| 3 | AI Governance and Responsible AI Leadership | 17/14 | 33/34 | ![done](assets/readme/badges/status-domain-3.svg) |
+| 4 | Business Readiness, Leadership and AI Transformation | 15/12 | 30/33 | ![done](assets/readme/badges/status-domain-4.svg) |
 
 
 
 **Weak spots under review** (logged in Spanish, as studied):
 
 - Etapas de madurez: eligió desplegar en la mitad de las áreas como punto medio entre experiment y scale. Repasar: una etapa por vez, después de experiment viene launch (un piloto en producción en un área), recién después scale.
+- Production readiness: confundió funding con operations. Repasar: las 4 piezas son governance, operations (quién monitorea y mantiene), reliability at volume y funding (pagar el run y el mantenimiento, no solo el build).
+- Servicios de datos de AWS: no ubicó DataZone como sharing framework entre equipos (eligió Well-Architected y después Lake Formation). Repasar: Lake Formation = permisos y catálogo del data lake, DataZone = compartir datos entre equipos contra los silos, Glue = pipelines.
 
 <sub>Generated from [progress.md](progress.md) by `node design/readme/build.mjs`. Last session: 2026-11-10.</sub>
 <!-- progress:end -->
