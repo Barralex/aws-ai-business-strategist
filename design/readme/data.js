@@ -3,11 +3,11 @@ window.DATA = {
   "updated": "2026-11-10",
   "started": "2026-11-06",
   "days": 5,
-  "lessonsDone": 51,
+  "lessonsDone": 55,
   "skipped": 2,
-  "right": 124,
-  "asked": 127,
-  "accuracy": 98,
+  "right": 135,
+  "asked": 139,
+  "accuracy": 97,
   "domains": [
     {
       "number": 1,
@@ -36,53 +36,53 @@ window.DATA = {
     {
       "number": 4,
       "title": "Business Readiness, Leadership and AI Transformation",
-      "done": 2,
-      "total": 2,
-      "right": 4,
-      "asked": 4
+      "done": 6,
+      "total": 6,
+      "right": 15,
+      "asked": 16
     }
   ],
   "current": 1,
   "next": null,
   "recent": [
     {
+      "number": 58,
+      "title": "Sponsor, Leaders, Champions and the Build Team",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 57,
+      "title": "Technology and Infrastructure Foundations",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 56,
+      "title": "Data Readiness and Data Silos",
+      "state": "done",
+      "right": 3,
+      "asked": 3
+    },
+    {
+      "number": 55,
+      "title": "Readiness Gaps and Investment Priorities",
+      "state": "done",
+      "right": 2,
+      "asked": 3
+    },
+    {
       "number": 54,
       "title": "Maturity and Readiness",
       "state": "done",
       "right": 2,
       "asked": 2
-    },
-    {
-      "number": 53,
-      "title": "Domain 4 Overview and CozyCo Ticket Routing",
-      "state": "done",
-      "right": 2,
-      "asked": 2
-    },
-    {
-      "number": 52,
-      "title": "AWS Services for Domain 3",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 51,
-      "title": "Hallucination, Degradation and Drift",
-      "state": "done",
-      "right": 3,
-      "asked": 3
-    },
-    {
-      "number": 50,
-      "title": "Harmful Content and Intellectual Property",
-      "state": "done",
-      "right": 3,
-      "asked": 3
     }
   ],
   "weak": [
-    "Obligaciones con AI: eligió volver a lo manual y después que la regla de AI pisa la sectorial. Repasar: las obligaciones siguen al proceso; AI = reglas del sector + data protection + requisitos de AI encima, nunca resta."
+    "Etapas de madurez: eligió desplegar en la mitad de las áreas como punto medio entre experiment y scale. Repasar: una etapa por vez, después de experiment viene launch (un piloto en producción en un área), recién después scale."
   ],
   "mocks": []
 };
